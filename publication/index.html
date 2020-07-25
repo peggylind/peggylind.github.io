@@ -214,6 +214,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173525251-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-173525251-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -225,8 +263,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="/publication/">
 
@@ -246,10 +284,10 @@
   <meta property="og:site_name" content="Peggy Lindner">
   <meta property="og:url" content="/publication/">
   <meta property="og:title" content="Publications | Peggy Lindner">
-  <meta property="og:description" content="Assistant Professor&lt;br/&gt;Computer Information Systems"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Assistant Professor&lt;br/&gt;Computer Information Systems"><meta property="og:image" content="/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2019-04-07T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2020-05-01T00:00:00&#43;00:00">
   
 
   
@@ -395,7 +433,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
         </li>
 
         
@@ -417,7 +455,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+          <a class="nav-link " href="/teaching/"><span>Teaching</span></a>
         </li>
 
         
@@ -522,6 +560,63 @@
         
         
       
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
 
       <div class="form-row mb-4">
         <div class="col-auto">
@@ -541,8 +636,16 @@
               Journal article
             </option>
             
-            <option value=".pubtype-3">
-              Preprint
+            <option value=".pubtype-4">
+              Report
+            </option>
+            
+            <option value=".pubtype-5">
+              Book
+            </option>
+            
+            <option value=".pubtype-6">
+              Book section
             </option>
             
           </select>
@@ -553,16 +656,48 @@
             
             
             
+            <option value=".year-2020">
+              2020
+            </option>
+            
             <option value=".year-2019">
               2019
             </option>
             
-            <option value=".year-2015">
-              2015
+            <option value=".year-2017">
+              2017
+            </option>
+            
+            <option value=".year-2016">
+              2016
             </option>
             
             <option value=".year-2013">
               2013
+            </option>
+            
+            <option value=".year-2012">
+              2012
+            </option>
+            
+            <option value=".year-2007">
+              2007
+            </option>
+            
+            <option value=".year-2005">
+              2005
+            </option>
+            
+            <option value=".year-2004">
+              2004
+            </option>
+            
+            <option value=".year-2003">
+              2003
+            </option>
+            
+            <option value=".year-2002">
+              2002
             </option>
             
             
@@ -577,7 +712,7 @@
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-3 year-2019">
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2020">
           
             <div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
@@ -589,10 +724,11 @@
     
 
   
-  <span ><a href="/author/peggy-lindner/">Peggy Lindner</a></span>
+  <span >Maryam Bagheri</span>, <span >Haoran Zhao</span>, <span >Manyang Sun</span>, <span >Li Huang</span>, <span >Srinath Madasu</span>, <span >Peggy Lindner</span>, <span >Giulia Toti</span>
   </span>
-  (2019).
-  <a href="/publication/preprint/">An example preprint / working paper</a>.
+  (2020).
+  <a href="/publication/bagheri-data-2020/">Data Conditioning and Forecasting Methodology using Machine Learning on Production Data for a Well Pad</a>.
+  In <em>OTC</em>.
   
   <p>
 
@@ -609,90 +745,33 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.4043/30854-MS" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/bagheri-data-2020/cite.bib">
+  Cite
+</button>
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Code
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.4043/30854-MS" target="_blank" rel="noopener">
+  DOI
 </a>
 
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Dataset
-</a>
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/internal-project/">
-    Project
-  </a>
-  
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://example.org" target="_blank" rel="noopener">
-    
-    Custom Link
-  </a>
 
 </p>
 
@@ -709,7 +788,7 @@
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2015">
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2020">
           
             <div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
@@ -721,11 +800,10 @@
     
 
   
-  <span ><a href="/author/peggy-lindner/">Peggy Lindner</a></span><span title="Equal contribution" class="author-notes">(?)</span>, <span >Robert Ford</span><span title="Equal contribution" class="author-notes">(?)</span>
+  <span >Manvi Saxena</span>, <span >Shweta Jha</span>, <span >Saba Khan</span>, <span >John Rodgers</span>, <span >Peggy Lindner</span>, <span >Edgar Gabriel</span>
   </span>
-  (2015).
-  <a href="/publication/journal-article/">An example journal article</a>.
-  <em>Journal of Source Themes, 1</em>(1).
+  (2020).
+  <a href="/publication/saxena-comparison-2020/">Comparison of MPI and Spark for Data Science Applications</a>.
   
   <p>
 
@@ -737,19 +815,13 @@
 
 
   
-    
-  
 
 
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
-  PDF
-</a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/journal-article/cite.bib">
+        data-filename="/publication/saxena-comparison-2020/cite.bib">
   Cite
 </button>
 
@@ -760,11 +832,402 @@
 
 
 
+
+
+
+
+
+
+</p>
+
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
   
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2019">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >L. Hellmueller</span>, <span >V. Hase</span>, <span >P. Lindner</span>
+  </span>
+  (2019).
+  <a href="/publication/l-hellmueller-terrorism-2019/">Terrorism in the News: Explaining Mediated Visibility of Organized Violence</a>.
+  <em>69th Annual International Communications Association (ICA) Conference</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/l-hellmueller-terrorism-2019/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2017">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Amit Amritkar</span>, <span >Jerry Ebalunode</span>, <span >Martin Huarte-Espinosa</span>, <span >Peggy Lindner</span>, <span >Pablo Guillén Rondón</span>, <span >Andrea Prosperetti</span>
+  </span>
+  (2017).
+  <a href="/publication/amritkar-vistas-2017/">Vistas in Advanced Computing</a>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/amritkar-vistas-2017/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Giulia Toti</span>, <span >Ricardo Vilalta</span>, <span >Peggy Lindner</span>, <span >Daniel Price</span>
+  </span>
+  (2016).
+  <a href="/publication/toti-effect-2016/">Effect of the Definition of Non-Exposed Population in Risk Pattern Mining</a>.
+  <em>5th Workshop on Data Mining for Medicine and Healthcare</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/toti-effect-2016/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Giulia Toti</span>, <span >Ricardo Vilalta</span>, <span >Peggy Lindner</span>, <span >Barry Lefer</span>, <span >Charles Macias</span>, <span >Daniel Price</span>
+  </span>
+  (2016).
+  <a href="/publication/toti-analysis-2016/">Analysis of correlation between pediatric asthma exacerbation and exposure to pollutant mixtures with association rule mining</a>.
+  <em>Artificial intelligence in medicine</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/toti-analysis-2016/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Haripriya Ayyalasomayajula</span>, <span >Edgar Gabriel</span>, <span >Peggy Lindner</span>, <span >Daniel Price</span>
+  </span>
+  (2016).
+  <a href="/publication/ayyalasomayajula-air-2016/">Air quality simulations using big data programming models</a>.
+  <em>2016 IEEE Second International Conference on Big Data Computing Service and Applications (BigDataService)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/ayyalasomayajula-air-2016/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-5 year-2013">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Ivan Garza</span>, <span >Hadi Montakhabi</span>, <span >Peggy Lindner</span>, <span >Panagiotis Tsiamyrtzis</span>, <span >Jerry Swanson</span>, <span >Leslie MacBride</span>, <span >Tom Krouskop</span>, <span >Ioannis Pavlidis</span>
+  </span>
+  (2013).
+  <a href="/publication/garza-face-2013/">The Face of Migraine; Thermal Imaging Revisited (P06. 154)</a>.
+  <em>AAN Enterprises</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/garza-face-2013/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -797,11 +1260,11 @@
     
 
   
-  <span >Maryam Bagheri</span>, <span >Haoran Zhao</span>, <span >Manyang Sun</span>, <span >Li Huang</span>, <span >Srinath Madasu</span>, <span ><a href="/author/peggy-lindner/">Peggy Lindner</a></span>, <span >Giulia Toti</span>
+  <span >Ilyas Uyanik</span>, <span >Peggy Lindner</span>, <span >Panagiotis Tsiamyrtzis</span>, <span >Dipan Shah</span>, <span >Nikolaos V Tsekos</span>, <span >Ioannis T Pavlidis</span>
   </span>
   (2013).
-  <a href="/publication/conference-paper/">Data Conditioning and Forecasting Methodology using Machine Learning on Production Data for a Well Pad</a>.
-  In <em>OTC</em>.
+  <a href="/publication/uyanik-applying-2013/">Applying a level set method for resolving physiologic motions in free-breathing and non-gated cardiac mri</a>.
+  <em>International Conference on Functional Imaging and Modeling of the Heart</em>.
   
   <p>
 
@@ -813,100 +1276,884 @@
 
 
   
-    
-  
 
 
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/conference-paper/cite.bib">
+        data-filename="/publication/uyanik-applying-2013/cite.bib">
   Cite
 </button>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
   
   
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2012">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
     
+
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Code
-</a>
+  <span >Yan Zhou</span>, <span >Panagiotis Tsiamyrtzis</span>, <span >Peggy Lindner</span>, <span >Ilya Timofeyev</span>, <span >Ioannis Pavlidis</span>
+  </span>
+  (2012).
+  <a href="/publication/zhou-spatiotemporal-2012/">Spatiotemporal smoothing as a basis for facial tissue tracking in thermal imaging</a>.
+  <em>IEEE Transactions on Biomedical Engineering</em>.
+  
+  <p>
+
+
+
+
+
+
 
 
   
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/zhou-spatiotemporal-2012/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
   
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2012">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
     
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Dataset
-</a>
-
-
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/internal-project/">
-    Project
-  </a>
+  <span >Ioannis Pavlidis</span>, <span >Panagiotis Tsiamyrtzis</span>, <span >Dvijesh Shastri</span>, <span >Avinash Wesley</span>, <span >Yan Zhou</span>, <span >Peggy Lindner</span>, <span >Pradeep Buddharaju</span>, <span >Rohan Joseph</span>, <span >Anitha Mandapati</span>, <span >Brian Dunkin</span>, <span > others</span>
+  </span>
+  (2012).
+  <a href="/publication/pavlidis-fast-2012/">Fast by nature-how stress patterns define human experience and performance in dexterous tasks</a>.
+  <em>Scientific Reports</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
   
 
 
 
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/pavlidis-fast-2012/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
   
   
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-6 year-2012">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
     
+
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Poster
-</a>
+  <span >Avinash Wesley</span>, <span >Peggy Lindner</span>, <span >Ioannis Pavlidis</span>
+  </span>
+  (2012).
+  <a href="/publication/wesley-eustressed-2012/">Eustressed or distressed? Combining physiology with observation in user studies</a>.
+  <em>CHI'12 Extended Abstracts on Human Factors in Computing Systems</em>.
+  
+  <p>
+
+
+
+
+
+
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
 
 
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/wesley-eustressed-2012/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
   
   
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2007">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
     
+
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Video
-</a>
+  <span >Peggy Lindner</span>, <span >Edgar Gabriel</span>, <span >Michael M Resch</span>
+  </span>
+  (2007).
+  <a href="/publication/lindner-performance-2007/">Performance prediction based resource selection in grid environments</a>.
+  <em>International Conference on High Performance Computing and Communications</em>.
+  
+  <p>
+
+
+
+
+
+
 
 
   
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/lindner-performance-2007/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
   
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2007">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
     
+
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Source Document
-</a>
+  <span >Peggy Lindner</span>
+  </span>
+  (2007).
+  <a href="/publication/lindner-management-2007/">Management von verteilten ingenieurwissenschaftlichen Anwendungen in heterogenen Grid-Umgebungen</a>.
+  
+  <p>
 
 
 
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/lindner-management-2007/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
   
   
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2005">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
   
+  
+
+  <span class="article-metadata li-cite-author">
     
+
+  
+  <span >Peggy Lindner</span>, <span >Edgar Gabriel</span>, <span >Michael M Resch</span>
+  </span>
+  (2005).
+  <a href="/publication/lindner-gcm-2005/">GCM: a grid configuration manager for heterogeneous grid environments</a>.
+  <em>International Journal of Grid and Utility Computing</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/lindner-gcm-2005/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
   
   
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2004">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
   
   
-  
+
+  <span class="article-metadata li-cite-author">
     
+
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://example.org" target="_blank" rel="noopener">
+  <span >Fabian Bös</span>, <span >Natalia Currle-Linde</span>, <span >Peggy Lindner</span>, <span >Rolf D Schmid</span>, <span >Jürgen Pleiss</span>
+  </span>
+  (2004).
+  <a href="/publication/bos-high-throughput-2004/">High-throughput molecular dynamics simulations: Long and short range effects of mutations on substrate specificity</a>.
+  <em>German Conference on Bioinformatics 2004, GCB 2004</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/bos-high-throughput-2004/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2004">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
     
-    Custom Link
-  </a>
+
+  
+  <span >Jim Almond</span>, <span >Peggy Lindner</span>
+  </span>
+  (2004).
+  <a href="/publication/almond-integrated-2004/">An Integrated Global Service for File Transfer and Management in a Network (FTM).</a>.
+  <em>PDPTA</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/almond-integrated-2004/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2004">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Natalia Currle-Linde</span>, <span >Fabian Boes</span>, <span >Peggy Lindner</span>, <span >Juergen Pleiss</span>, <span >Michael M Resch</span>
+  </span>
+  (2004).
+  <a href="/publication/currle-linde-management-2004/">A management system for complex parameter studies and experiments in grid computing</a>.
+  <em>Parallel and Distributed Computing and Systems: Proceedings of the 16 th IASTED International Conference</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/currle-linde-management-2004/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-4 year-2003">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Peggy Lindner</span>, <span >Thomas Beisel</span>, <span >Michael M Resch</span>, <span >Toshiyuki Imamura</span>, <span >Roger Menday</span>, <span >Philipp Wieder3 Dietmar Erwin</span>
+  </span>
+  (2003).
+  <a href="/publication/lindner-dfn-project-2003/">DFN-Project “GRIDWELTEN: User Requirements and Environments for GRID-Computing”</a>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/lindner-dfn-project-2003/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2003">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Dietmar Erwin</span>
+  </span>
+  (2003).
+  <a href="/publication/erwin-unicore-2003/">Unicore plus final report-uniform interface to computing resources</a>.
+  <em>Forschungszentrum Jülich</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/erwin-unicore-2003/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2003">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Edgar Gabriel</span>, <span >Rainer Keller</span>, <span >Peggy Lindner</span>, <span >Matthias S Müller</span>, <span >Michael M Resch</span>
+  </span>
+  (2003).
+  <a href="/publication/gabriel-software-2003/">Software Development in the Grid: The DAMIEN tool-set</a>.
+  <em>International Conference on Computational Science</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/gabriel-software-2003/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2002">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Peggy Lindner</span>, <span >Natalia Currle-Linde</span>, <span >Michael M Resch</span>, <span >Edgar Gabriel</span>
+  </span>
+  (2002).
+  <a href="/publication/lindner-distributed-2002/">Distributed application management in heterogeneous GRIDS</a>.
+  <em>Euroweb 2002 conference</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/lindner-distributed-2002/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </p>
 

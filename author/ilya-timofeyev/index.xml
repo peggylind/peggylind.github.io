@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ilya Timofeyev | Peggy Lindner</title>
+    <link>/author/ilya-timofeyev/</link>
+      <atom:link href="/author/ilya-timofeyev/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ilya Timofeyev</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png</url>
+      <title>Ilya Timofeyev</title>
+      <link>/author/ilya-timofeyev/</link>
+    </image>
+    
+    <item>
+      <title>Spatiotemporal smoothing as a basis for facial tissue tracking in thermal imaging</title>
+      <link>/publication/zhou-spatiotemporal-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/zhou-spatiotemporal-2012/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

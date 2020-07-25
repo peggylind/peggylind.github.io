@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Edgar Gabriel | Peggy Lindner</title>
+    <link>/author/edgar-gabriel/</link>
+      <atom:link href="/author/edgar-gabriel/index.xml" rel="self" type="application/rss+xml" />
+    <description>Edgar Gabriel</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png</url>
+      <title>Edgar Gabriel</title>
+      <link>/author/edgar-gabriel/</link>
+    </image>
+    
+    <item>
+      <title>Comparison of MPI and Spark for Data Science Applications</title>
+      <link>/publication/saxena-comparison-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/saxena-comparison-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Air quality simulations using big data programming models</title>
+      <link>/publication/ayyalasomayajula-air-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/ayyalasomayajula-air-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance prediction based resource selection in grid environments</title>
+      <link>/publication/lindner-performance-2007/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/lindner-performance-2007/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GCM: a grid configuration manager for heterogeneous grid environments</title>
+      <link>/publication/lindner-gcm-2005/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>/publication/lindner-gcm-2005/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Development in the Grid: The DAMIEN tool-set</title>
+      <link>/publication/gabriel-software-2003/</link>
+      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
+      <guid>/publication/gabriel-software-2003/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distributed application management in heterogeneous GRIDS</title>
+      <link>/publication/lindner-distributed-2002/</link>
+      <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
+      <guid>/publication/lindner-distributed-2002/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jerry Ebalunode | Peggy Lindner</title>
+    <link>/author/jerry-ebalunode/</link>
+      <atom:link href="/author/jerry-ebalunode/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jerry Ebalunode</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png</url>
+      <title>Jerry Ebalunode</title>
+      <link>/author/jerry-ebalunode/</link>
+    </image>
+    
+    <item>
+      <title>Vistas in Advanced Computing</title>
+      <link>/publication/amritkar-vistas-2017/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/amritkar-vistas-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

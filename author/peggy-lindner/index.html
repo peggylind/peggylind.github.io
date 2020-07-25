@@ -214,6 +214,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173525251-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-173525251-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -225,8 +263,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="/author/peggy-lindner/">
 
@@ -246,10 +284,10 @@
   <meta property="og:site_name" content="Peggy Lindner">
   <meta property="og:url" content="/author/peggy-lindner/">
   <meta property="og:title" content="Peggy Lindner | Peggy Lindner">
-  <meta property="og:description" content="Assistant Professor&lt;br/&gt;Computer Information Systems"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Assistant Professor&lt;br/&gt;Computer Information Systems"><meta property="og:image" content="/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2019-04-07T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2020-05-01T00:00:00&#43;00:00">
   
 
   
@@ -395,7 +433,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
         </li>
 
         
@@ -417,7 +455,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+          <a class="nav-link " href="/teaching/"><span>Teaching</span></a>
         </li>
 
         
@@ -479,182 +517,14 @@
 
 
 
+<div class="universal-wrapper pt-3">
+  <h1>Peggy Lindner</h1>
+</div>
+
 
 <section id="profile-page" class="pt-5">
   <div class="container">
     
-    
-      
-      
-      
-      
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
-
-      
-      
-      <img class="avatar avatar-circle" src="/author/peggy-lindner/avatar_hu0365f3029aeea24f97db8ccda826bb20_117903_270x270_fill_q90_lanczos_center.jpg" alt="Peggy Lindner">
-      
-
-      <div class="portrait-title">
-        <h2>Peggy Lindner</h2>
-        <h3>Assistant Professor<br/>Computer Information Systems</h3>
-
-        
-        <h3>
-          <a href="https://www.uh.edu/" target="_blank" rel="noopener">
-          <span>University of Houston</span>
-          </a>
-        </h3>
-        
-      </div>
-
-      <ul class="network-icon" aria-hidden="true">
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="/#contact" >
-            <i class="fas fa-envelope big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://scholar.google.com/citations?user=odwfssgAAAAJ" target="_blank" rel="noopener">
-            <i class="ai ai-google-scholar big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://github.com/peggylind" target="_blank" rel="noopener">
-            <i class="fab fa-github big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="/files/lindner-cv.pdf" >
-            <i class="ai ai-cv big-icon"></i>
-          </a>
-        </li>
-        
-      </ul>
-
-    </div>
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-    
-
-    <p>Peggy Lindner is an Assistant Professor in the department of Information &amp; Logistics Technology at the University of Houston. Her research interests include data science workflows .</p>
-
-
-    <div class="row">
-
-      
-      <div class="col-md-5">
-        <h3>Interests</h3>
-        <ul class="ul-interests">
-          
-          <li>Data Science</li>
-          
-          <li>Information Retrieval</li>
-          
-        </ul>
-      </div>
-      
-
-      
-      <div class="col-md-7">
-        <h3>Education</h3>
-        <ul class="ul-edu fa-ul">
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">PhD in Mechanical Engineering, 2007</p>
-              <p class="institution">University of Stuttgart, Germany</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">MEng in Geotechnology/Mining, 2000</p>
-              <p class="institution">Freiberg, Germany</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">BSc in Geotechnology/Mining, 1996</p>
-              <p class="institution">Massachusetts Institute of Technology</p>
-            </div>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </div>
-  </div>
-</div>
-
     
 
     
@@ -665,23 +535,83 @@
       <ul>
         
         <li>
-          <a href="/publication/preprint/">An example preprint / working paper</a>
+          <a href="/publication/bagheri-data-2020/">Data Conditioning and Forecasting Methodology using Machine Learning on Production Data for a Well Pad</a>
         </li>
         
         <li>
-          <a href="/post/jupyter/">Display Jupyter Notebooks with Academic</a>
+          <a href="/publication/saxena-comparison-2020/">Comparison of MPI and Spark for Data Science Applications</a>
         </li>
         
         <li>
-          <a href="/post/getting-started/">Academic: the website builder for Hugo</a>
+          <a href="/publication/amritkar-vistas-2017/">Vistas in Advanced Computing</a>
         </li>
         
         <li>
-          <a href="/publication/journal-article/">An example journal article</a>
+          <a href="/publication/ayyalasomayajula-air-2016/">Air quality simulations using big data programming models</a>
         </li>
         
         <li>
-          <a href="/publication/conference-paper/">Data Conditioning and Forecasting Methodology using Machine Learning on Production Data for a Well Pad</a>
+          <a href="/publication/toti-analysis-2016/">Analysis of correlation between pediatric asthma exacerbation and exposure to pollutant mixtures with association rule mining</a>
+        </li>
+        
+        <li>
+          <a href="/publication/toti-effect-2016/">Effect of the Definition of Non-Exposed Population in Risk Pattern Mining</a>
+        </li>
+        
+        <li>
+          <a href="/publication/uyanik-applying-2013/">Applying a level set method for resolving physiologic motions in free-breathing and non-gated cardiac mri</a>
+        </li>
+        
+        <li>
+          <a href="/publication/garza-face-2013/">The Face of Migraine; Thermal Imaging Revisited (P06. 154)</a>
+        </li>
+        
+        <li>
+          <a href="/publication/wesley-eustressed-2012/">Eustressed or distressed? Combining physiology with observation in user studies</a>
+        </li>
+        
+        <li>
+          <a href="/publication/pavlidis-fast-2012/">Fast by nature-how stress patterns define human experience and performance in dexterous tasks</a>
+        </li>
+        
+        <li>
+          <a href="/publication/zhou-spatiotemporal-2012/">Spatiotemporal smoothing as a basis for facial tissue tracking in thermal imaging</a>
+        </li>
+        
+        <li>
+          <a href="/publication/lindner-management-2007/">Management von verteilten ingenieurwissenschaftlichen Anwendungen in heterogenen Grid-Umgebungen</a>
+        </li>
+        
+        <li>
+          <a href="/publication/lindner-performance-2007/">Performance prediction based resource selection in grid environments</a>
+        </li>
+        
+        <li>
+          <a href="/publication/lindner-gcm-2005/">GCM: a grid configuration manager for heterogeneous grid environments</a>
+        </li>
+        
+        <li>
+          <a href="/publication/currle-linde-management-2004/">A management system for complex parameter studies and experiments in grid computing</a>
+        </li>
+        
+        <li>
+          <a href="/publication/almond-integrated-2004/">An Integrated Global Service for File Transfer and Management in a Network (FTM).</a>
+        </li>
+        
+        <li>
+          <a href="/publication/bos-high-throughput-2004/">High-throughput molecular dynamics simulations: Long and short range effects of mutations on substrate specificity</a>
+        </li>
+        
+        <li>
+          <a href="/publication/lindner-dfn-project-2003/">DFN-Project “GRIDWELTEN: User Requirements and Environments for GRID-Computing”</a>
+        </li>
+        
+        <li>
+          <a href="/publication/gabriel-software-2003/">Software Development in the Grid: The DAMIEN tool-set</a>
+        </li>
+        
+        <li>
+          <a href="/publication/lindner-distributed-2002/">Distributed application management in heterogeneous GRIDS</a>
         </li>
         
       </ul>

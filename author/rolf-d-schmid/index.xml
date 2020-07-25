@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rolf D Schmid | Peggy Lindner</title>
+    <link>/author/rolf-d-schmid/</link>
+      <atom:link href="/author/rolf-d-schmid/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rolf D Schmid</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2004 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png</url>
+      <title>Rolf D Schmid</title>
+      <link>/author/rolf-d-schmid/</link>
+    </image>
+    
+    <item>
+      <title>High-throughput molecular dynamics simulations: Long and short range effects of mutations on substrate specificity</title>
+      <link>/publication/bos-high-throughput-2004/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      <guid>/publication/bos-high-throughput-2004/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

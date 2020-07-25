@@ -214,6 +214,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173525251-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-173525251-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -223,8 +261,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="/404.html">
 
@@ -244,8 +282,8 @@
   <meta property="og:site_name" content="Peggy Lindner">
   <meta property="og:url" content="/404.html">
   <meta property="og:title" content="404 Page not found | Peggy Lindner">
-  <meta property="og:description" content="Assistant Professor&lt;br/&gt;Computer Information Systems"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Assistant Professor&lt;br/&gt;Computer Information Systems"><meta property="og:image" content="/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
   
@@ -393,7 +431,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
         </li>
 
         
@@ -415,7 +453,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+          <a class="nav-link " href="/teaching/"><span>Teaching</span></a>
         </li>
 
         
@@ -494,25 +532,25 @@
   <h2>Latest</h2>
   <ul>
     
-      <li><a href="/courses/example/example1/">Example Page 1</a></li>
-    
-      <li><a href="/courses/example/example2/">Example Page 2</a></li>
+      <li><a href="/publication/bagheri-data-2020/">Data Conditioning and Forecasting Methodology using Machine Learning on Production Data for a Well Pad</a></li>
     
       <li><a href="/talk/dsisyrios/">Reconstructing Ancient Syria</a></li>
     
-      <li><a href="/post/writing-technical-content/">Writing technical content in Academic</a></li>
+      <li><a href="/publication/saxena-comparison-2020/">Comparison of MPI and Spark for Data Science Applications</a></li>
     
-      <li><a href="/publication/preprint/">An example preprint / working paper</a></li>
+      <li><a href="/teaching/">Courses taught</a></li>
     
-      <li><a href="/post/jupyter/">Display Jupyter Notebooks with Academic</a></li>
+      <li><a href="/publication/l-hellmueller-terrorism-2019/">Terrorism in the News: Explaining Mediated Visibility of Organized Violence</a></li>
     
-      <li><a href="/slides/example/">Slides</a></li>
+      <li><a href="/publication/amritkar-vistas-2017/">Vistas in Advanced Computing</a></li>
     
       <li><a href="/project/hnet/">HNET Datamaps</a></li>
     
-      <li><a href="/project/internal-project/">Internal Project</a></li>
-    
       <li><a href="/project/nasem/">Mindfulness for Offshore Safety</a></li>
+    
+      <li><a href="/project/syrios/">The Syrios Project</a></li>
+    
+      <li><a href="/publication/ayyalasomayajula-air-2016/">Air quality simulations using big data programming models</a></li>
     
   </ul>
   

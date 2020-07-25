@@ -5,31 +5,59 @@
     <link>/publication-type/2/</link>
       <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
       <link>/publication-type/2/</link>
     </image>
     
     <item>
-      <title>An example journal article</title>
-      <link>/publication/journal-article/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/journal-article/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>Analysis of correlation between pediatric asthma exacerbation and exposure to pollutant mixtures with association rule mining</title>
+      <link>/publication/toti-analysis-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/toti-analysis-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast by nature-how stress patterns define human experience and performance in dexterous tasks</title>
+      <link>/publication/pavlidis-fast-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/pavlidis-fast-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatiotemporal smoothing as a basis for facial tissue tracking in thermal imaging</title>
+      <link>/publication/zhou-spatiotemporal-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/zhou-spatiotemporal-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Management von verteilten ingenieurwissenschaftlichen Anwendungen in heterogenen Grid-Umgebungen</title>
+      <link>/publication/lindner-management-2007/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/lindner-management-2007/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GCM: a grid configuration manager for heterogeneous grid environments</title>
+      <link>/publication/lindner-gcm-2005/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>/publication/lindner-gcm-2005/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unicore plus final report-uniform interface to computing resources</title>
+      <link>/publication/erwin-unicore-2003/</link>
+      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
+      <guid>/publication/erwin-unicore-2003/</guid>
+      <description></description>
     </item>
     
   </channel>

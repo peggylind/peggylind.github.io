@@ -214,12 +214,48 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173525251-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-173525251-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
   
-  
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   
 
   
@@ -227,8 +263,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="/">
 
@@ -248,10 +284,10 @@
   <meta property="og:site_name" content="Peggy Lindner">
   <meta property="og:url" content="/">
   <meta property="og:title" content="Peggy Lindner">
-  <meta property="og:description" content="Assistant Professor&lt;br/&gt;Computer Information Systems"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Assistant Professor&lt;br/&gt;Computer Information Systems"><meta property="og:image" content="/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2020-04-09T11:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2020-05-01T00:00:00&#43;00:00">
   
 
   
@@ -411,7 +447,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#featured" data-target="#featured"><span>Publications</span></a>
+          <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
         </li>
 
         
@@ -433,7 +469,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+          <a class="nav-link " href="/teaching/"><span>Teaching</span></a>
         </li>
 
         
@@ -665,7 +701,7 @@
     
     <h1>Biography</h1>
 
-    <p>Peggy Lindner is an Assistant Professor in the department of Information &amp; Logistics Technology at the University of Houston. Her research interests include data science workflows .</p>
+    <p>Peggy Lindner is an Assistant Professor in the department of Information &amp; Logistics Technology at the University of Houston. Her research is on emerging patterns through data in areas where qualitative and quantitative data sources come together. Those emerging patterns can inform policy decisions or measure the impact of interventions as well as improve workflows for quantitative analysis in the Sciences and Humanities.</p>
 
 
     <div class="row">
@@ -675,9 +711,11 @@
         <h3>Interests</h3>
         <ul class="ul-interests">
           
-          <li>Data Science</li>
+          <li>Data Science workflows</li>
           
           <li>Information Retrieval</li>
+          
+          <li>Text analysis</li>
           
         </ul>
       </div>
@@ -700,7 +738,7 @@
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
               <p class="course">MEng in Geotechnology/Mining, 2000</p>
-              <p class="institution">Freiberg, Germany</p>
+              <p class="institution">Freiberg University of Mining and Technology, Germany</p>
             </div>
           </li>
           
@@ -708,7 +746,7 @@
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
               <p class="course">BSc in Geotechnology/Mining, 1996</p>
-              <p class="institution">Massachusetts Institute of Technology</p>
+              <p class="institution">Freiberg University of Mining and Technology, Germany</p>
             </div>
           </li>
           
@@ -793,7 +831,7 @@
         <div class="card">
           <div class="card-body">
             <h4 class="card-title exp-title text-muted mt-0 mb-1">Assistant Professor</h4>
-            <h4 class="card-title exp-company text-muted my-0"><a href="https://uh.edu/" target="_blank" rel="noopener">University of Houston</a></h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://uh.edu/" target="_blank" rel="noopener">University of Houston, Department of Information &amp; Logistics Technology</a></h4>
             <div class="text-muted exp-meta">
               Sep 2019 –
               
@@ -829,8 +867,8 @@
       <div class="col py-2">
         <div class="card">
           <div class="card-body">
-            <h4 class="card-title exp-title text-muted mt-0 mb-1">Associate Director HPE Data Science Institute</h4>
-            <h4 class="card-title exp-company text-muted my-0">University of Houston</h4>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Associate Director for Educational Programs</h4>
+            <h4 class="card-title exp-company text-muted my-0">HPE Data Science Institute, University of Houston</h4>
             <div class="text-muted exp-meta">
               Jan 2016 –
               
@@ -841,7 +879,54 @@
                 <span>Texas</span>
               
             </div>
-            <div class="card-text">Taught electronic engineering and researched semiconductor physics.</div>
+            <div class="card-text"><ul>
+<li>Development of Data science related academic programs across colleges</li>
+<li>Lead for Summer workshop series “What is Data Science”</li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Research  Assistant Professor</h4>
+            <h4 class="card-title exp-company text-muted my-0">University of Houston, Department of Mechanical Engineering &amp; Honors College</h4>
+            <div class="text-muted exp-meta">
+              Nov 2013 –
+              
+                Aug 2019
+              
+              
+                <span class="middot-divider"></span>
+                <span>Texas</span>
+              
+            </div>
+            <div class="card-text"><ul>
+<li>Research: Object centered studies in digital humanities (Collaborator Dr. Dan Price)</li>
+<li>Research: Real-Time data analysis workflows for air quality and health data (Collaborator Dr. Barry Lefer)</li>
+<li>Assistance with assessment of effectiveness of research initiatives at the Honors College</li>
+<li>Management and Analysis of large-scale datasets with specific focus on health, environment &amp; the financial sector, Research Data Sharing, Digital Humanities Liaison for the Center for Advanced Computing and Data Science (CACDS)</li>
+</ul>
+</div>
           </div>
         </div>
       </div>
@@ -867,18 +952,21 @@
         <div class="card">
           <div class="card-body">
             <h4 class="card-title exp-title text-muted mt-0 mb-1">Research  Assistant Professor</h4>
-            <h4 class="card-title exp-company text-muted my-0">University of Houston</h4>
+            <h4 class="card-title exp-company text-muted my-0">University of Houston, Department of Computer Science</h4>
             <div class="text-muted exp-meta">
-              Jan 2016 –
+              Nov 2009 –
               
-                Aug 2019
+                Dec 2012
               
               
                 <span class="middot-divider"></span>
                 <span>Texas</span>
               
             </div>
-            <div class="card-text">Taught electronic engineering and researched semiconductor physics.</div>
+            <div class="card-text"><ul>
+<li>Lead design and development of “StressBook” software – an analysis tool for large physiological &amp; psychological datasets; funded through various grants from NSF and DoD (under Dr. Ioannis Pavlidis)</li>
+</ul>
+</div>
           </div>
         </div>
       </div>
@@ -1033,49 +1121,6 @@
       
       <div class="article-style">
         <p>A sensor data collection and analytics a framework <code>https://hnet.uh.edu</code>.</p>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
-        
-
-      
-
-        
-        
-        
-
-        
-          
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-Deep-Learning">
-  <div class="card">
-    
-    
-    <a href="/project/internal-project/"  class="card-image hover-overlay">
-      <img src="/project/internal-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="/project/internal-project/" >Internal Project</a></h4>
-      
-      <div class="article-style">
-        <p>An example of using the in-built project page.</p>
       </div>
       
     </div>
@@ -1498,8 +1543,8 @@
     
   
   <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>
-    Follow
+    <i class="fas fa-link mr-1"></i>
+    Project website
   </a>
 
 
@@ -1522,297 +1567,6 @@
     
 
     
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="featured" class="home-section wg-featured   "  >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Featured Publications</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-
-    
-      
-        
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="card-simple">
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  
-  <span >Maryam Bagheri</span>, <span >Haoran Zhao</span>, <span >Manyang Sun</span>, <span >Li Huang</span>, <span >Srinath Madasu</span>, <span ><a href="/author/peggy-lindner/">Peggy Lindner</a></span>, <span >Giulia Toti</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    July 2013
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      In <em>OTC</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-  
-  <a href="/publication/conference-paper/">
-      <img src="/publication/conference-paper/featured_hucc600f1d1027e7246fd02a3f658f18b4_270999_918x517_fill_q90_lanczos_smart1.jpg" class="article-banner" alt="Data Conditioning and Forecasting Methodology using Machine Learning on Production Data for a Well Pad">
-  </a>
-  
-
-  <h3 class="article-title mb-1 mt-3">
-    <a href="/publication/conference-paper/">Data Conditioning and Forecasting Methodology using Machine Learning on Production Data for a Well Pad</a>
-  </h3>
-
-  
-  <a href="/publication/conference-paper/" class="summary-link">
-    <div class="article-style">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.</p>
-    </div>
-  </a>
-  
-
-  
-  <div class="btn-links">
-    
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/conference-paper/cite.bib">
-  Cite
-</button>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Dataset
-</a>
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/internal-project/">
-    Project
-  </a>
-  
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://example.org" target="_blank" rel="noopener">
-    
-    Custom Link
-  </a>
-
-
-  </div>
-  
-
-</div>
-
-      
-    
-
-  
 
   </div>
 </div>
@@ -1905,12 +1659,7 @@
   </div>
   <div class="col-12 col-lg-8">
 
-    <div class="alert alert-note">
-  <div>
-    Quickly discover relevant content by <a href="/publication/">filtering publications</a>.
-  </div>
-</div>
-
+    
 
     
       
@@ -1937,13 +1686,13 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/preprint/" >An example preprint / working paper</a>
+      <a href="/publication/bagheri-data-2020/" >Data Conditioning and Forecasting Methodology using Machine Learning on Production Data for a Well Pad</a>
     </h3>
 
     
-    <a href="/publication/preprint/" class="summary-link">
+    <a href="/publication/bagheri-data-2020/" class="summary-link">
       <div class="article-style">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+        A new machine learning (ML)/statistical-based methodology for conditioning and predicting production data for a well pad has been …
       </div>
     </a>
     
@@ -1957,7 +1706,7 @@
         
 
   
-  <span ><a href="/author/peggy-lindner/">Peggy Lindner</a></span>
+  <span >Maryam Bagheri</span>, <span >Haoran Zhao</span>, <span >Manyang Sun</span>, <span >Li Huang</span>, <span >Srinath Madasu</span>, <span >Peggy Lindner</span>, <span >Giulia Toti</span>
       </div>
       
     </div>
@@ -1979,183 +1728,14 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Dataset
-</a>
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/internal-project/">
-    Project
-  </a>
-  
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://example.org" target="_blank" rel="noopener">
-    
-    Custom Link
-  </a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/preprint/" >
-      <img src="/publication/preprint/featured_hu559a5add5185b02575aa8333502ab2cc_220813_150x0_resize_q90_lanczos.jpg" alt="An example preprint / working paper">
-    </a>
-    
-  </div>
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/journal-article/" >An example journal article</a>
-    </h3>
-
-    
-    <a href="/publication/journal-article/" class="summary-link">
-      <div class="article-style">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  
-  <span ><a href="/author/peggy-lindner/">Peggy Lindner</a></span><span title="Equal contribution" class="author-notes">(?)</span>, <span >Robert Ford</span><span title="Equal contribution" class="author-notes">(?)</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.4043/30854-MS" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/journal-article/cite.bib">
+        data-filename="/publication/bagheri-data-2020/cite.bib">
   Cite
 </button>
 
@@ -2166,14 +1746,14 @@
 
 
 
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
 
 
 
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.4043/30854-MS" target="_blank" rel="noopener">
+  DOI
+</a>
 
 
 
@@ -2185,8 +1765,8 @@
     
     
     
-    <a href="/publication/journal-article/" >
-      <img src="/publication/journal-article/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_214168_150x0_resize_q90_lanczos.jpg" alt="An example journal article">
+    <a href="/publication/bagheri-data-2020/" >
+      <img src="/publication/bagheri-data-2020/featured_hucc600f1d1027e7246fd02a3f658f18b4_270999_150x0_resize_q90_lanczos.jpg" alt="Data Conditioning and Forecasting Methodology using Machine Learning on Production Data for a Well Pad">
     </a>
     
   </div>
@@ -2211,22 +1791,14 @@
 
 
 
-  
-
 
 <div class="media stream-item">
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/conference-paper/" >Data Conditioning and Forecasting Methodology using Machine Learning on Production Data for a Well Pad</a>
+      <a href="/publication/saxena-comparison-2020/" >Comparison of MPI and Spark for Data Science Applications</a>
     </h3>
 
-    
-    <a href="/publication/conference-paper/" class="summary-link">
-      <div class="article-style">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-      </div>
-    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -2238,7 +1810,7 @@
         
 
   
-  <span >Maryam Bagheri</span>, <span >Haoran Zhao</span>, <span >Manyang Sun</span>, <span >Li Huang</span>, <span >Srinath Madasu</span>, <span ><a href="/author/peggy-lindner/">Peggy Lindner</a></span>, <span >Giulia Toti</span>
+  <span >Manvi Saxena</span>, <span >Shweta Jha</span>, <span >Saba Khan</span>, <span >John Rodgers</span>, <span >Peggy Lindner</span>, <span >Edgar Gabriel</span>
       </div>
       
     </div>
@@ -2255,100 +1827,28 @@
 
 
   
-    
-  
 
 
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/conference-paper/cite.bib">
+        data-filename="/publication/saxena-comparison-2020/cite.bib">
   Cite
 </button>
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Dataset
-</a>
 
 
 
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/internal-project/">
-    Project
-  </a>
-  
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Source Document
-</a>
 
 
 
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://example.org" target="_blank" rel="noopener">
-    
-    Custom Link
-  </a>
+
+
 
 
     </div>
@@ -2359,8 +1859,8 @@
     
     
     
-    <a href="/publication/conference-paper/" >
-      <img src="/publication/conference-paper/featured_hucc600f1d1027e7246fd02a3f658f18b4_270999_150x0_resize_q90_lanczos.jpg" alt="Data Conditioning and Forecasting Methodology using Machine Learning on Production Data for a Well Pad">
+    <a href="/publication/saxena-comparison-2020/" >
+      <img src="/publication/saxena-comparison-2020/featured_huae3a25bff18d4edf19fb1d2cf59c4baf_126964_150x0_resize_lanczos_2.png" alt="Comparison of MPI and Spark for Data Science Applications">
     </a>
     
   </div>
@@ -2368,7 +1868,281 @@
 
       
     
+      
+        
 
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/l-hellmueller-terrorism-2019/" >Terrorism in the News: Explaining Mediated Visibility of Organized Violence</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >L. Hellmueller</span>, <span >V. Hase</span>, <span >P. Lindner</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/l-hellmueller-terrorism-2019/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/amritkar-vistas-2017/" >Vistas in Advanced Computing</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Amit Amritkar</span>, <span >Jerry Ebalunode</span>, <span >Martin Huarte-Espinosa</span>, <span >Peggy Lindner</span>, <span >Pablo Guillén Rondón</span>, <span >Andrea Prosperetti</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/amritkar-vistas-2017/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/ayyalasomayajula-air-2016/" >Air quality simulations using big data programming models</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Haripriya Ayyalasomayajula</span>, <span >Edgar Gabriel</span>, <span >Peggy Lindner</span>, <span >Daniel Price</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/ayyalasomayajula-air-2016/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
+    
+    <div class="see-all">
+      <a href="/publication/">
+        See all publications
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </div>
     
 
   </div>
@@ -2428,7 +2202,7 @@
   
   
 
-  <section id="demo" class="home-section wg-blank dark  bg-image parallax " style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(&#39;/img/headers/photo-of-night-sky.jpg&#39;);background-size: cover;background-position: center;padding: 20px 0 20px 0;" >
+  <section id="dash" class="home-section wg-blank dark  bg-image parallax " style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(&#39;/img/headers/photo-of-night-sky.jpg&#39;);background-size: cover;background-position: center;padding: 20px 0 20px 0;" >
     <div class="container">
       
 
@@ -2440,13 +2214,9 @@
       
     </div>
     <div class="col-12 col-lg-8">
-      <p>In addition to my research projects and teaching in the CIS program, I&rsquo;m the co-Director of</p>
-<p>
-<a href="https://uh.edu/honors/Programs-Minors/co-curricular-programs/data-and-community-health/dash/" target="_blank" rel="noopener"><strong>DASH</strong> program</a></p>
-<p><strong>Over 100,000 
-<a href="https://sourcethemes.com/academic/#expo" target="_blank" rel="noopener">Amazing Websites</a> have Already Been Built with Academic</strong></p>
-<p><strong>
-<a href="https://sourcethemes.com/academic/docs/install/" target="_blank" rel="noopener">Join</a> the Most Empowered Hugo Community</strong></p>
+      <p>In addition to my research projects and teaching in the CIS program, I&rsquo;m the co-Director of the
+
+<a href="https://uh.edu/honors/Programs-Minors/co-curricular-programs/data-and-community-health/dash/" target="_blank" rel="noopener"><strong>DASH</strong></a> program at the Honors College.</p>
 
 
 
@@ -2524,7 +2294,7 @@
 
 <div class="row">
   <div class="col-12 col-lg-4 section-heading">
-    <h1>Professional Memberships</h1>
+    <h1>Professional Engagement</h1>
     
   </div>
   <div class="col-12 col-lg-8">
@@ -2533,56 +2303,29 @@
     
     
       <div class="card experience course">
-        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Association of Computer Machinery</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.coursera.org" target="_blank" rel="noopener">ACM</a><span class="middot-divider"></span>
+        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Association of Computer Machinery</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.coursera.org" target="_blank" rel="noopener">ACM since</a><span class="middot-divider"></span>
 
-            Oct 2018
+            2018
             
           </div>
 
           
 
-          
-            <a class="card-link" href="https://www.coursera.org" target="_blank" rel="noopener">
-              See certificate
-            </a>
           
         </div>
       </div>
     
       <div class="card experience course">
-        <div class="card-body"><a href="https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals" target="_blank" rel="noopener"><h4 class="card-title exp-title text-muted my-0">Blockchain Fundamentals</h4></a><div class="card-subtitle my-0 article-metadata"><a href="https://www.edx.org" target="_blank" rel="noopener">edX</a><span class="middot-divider"></span>
+        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Digital Research Commons Advisory Board</h4><div class="card-subtitle my-0 article-metadata"><a href="https://libraries.uh.edu/spaces/drc/" target="_blank" rel="noopener">University of Houston Libraries</a><span class="middot-divider"></span>
 
-            Mar 2018
+            2018
             
-          </div>
-
-          
-            <div class="card-text">Formulated informed blockchain models, hypotheses, and use cases.</div>
-          
-
-          
-            <a class="card-link" href="https://www.edx.org" target="_blank" rel="noopener">
-              See certificate
-            </a>
-          
-        </div>
-      </div>
-    
-      <div class="card experience course">
-        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Object-Oriented Programming in R: S3 and R6 Course</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.datacamp.com" target="_blank" rel="noopener">DataCamp</a><span class="middot-divider"></span>
-
-            Jul 2017
-            
-            – Dec 2017
+            – 2021
             
           </div>
 
           
 
-          
-            <a class="card-link" href="https://www.datacamp.com" target="_blank" rel="noopener">
-              See certificate
-            </a>
           
         </div>
       </div>
@@ -2794,18 +2537,6 @@
     
 
     
-    
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      }
-    </script>
     
 
     

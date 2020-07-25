@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Haripriya Ayyalasomayajula | Peggy Lindner</title>
+    <link>/author/haripriya-ayyalasomayajula/</link>
+      <atom:link href="/author/haripriya-ayyalasomayajula/index.xml" rel="self" type="application/rss+xml" />
+    <description>Haripriya Ayyalasomayajula</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png</url>
+      <title>Haripriya Ayyalasomayajula</title>
+      <link>/author/haripriya-ayyalasomayajula/</link>
+    </image>
+    
+    <item>
+      <title>Air quality simulations using big data programming models</title>
+      <link>/publication/ayyalasomayajula-air-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/ayyalasomayajula-air-2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

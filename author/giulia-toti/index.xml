@@ -5,31 +5,35 @@
     <link>/author/giulia-toti/</link>
       <atom:link href="/author/giulia-toti/index.xml" rel="self" type="application/rss+xml" />
     <description>Giulia Toti</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png</url>
       <title>Giulia Toti</title>
       <link>/author/giulia-toti/</link>
     </image>
     
     <item>
       <title>Data Conditioning and Forecasting Methodology using Machine Learning on Production Data for a Well Pad</title>
-      <link>/publication/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/conference-paper/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <link>/publication/bagheri-data-2020/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/bagheri-data-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis of correlation between pediatric asthma exacerbation and exposure to pollutant mixtures with association rule mining</title>
+      <link>/publication/toti-analysis-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/toti-analysis-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effect of the Definition of Non-Exposed Population in Risk Pattern Mining</title>
+      <link>/publication/toti-effect-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/toti-effect-2016/</guid>
+      <description></description>
     </item>
     
   </channel>

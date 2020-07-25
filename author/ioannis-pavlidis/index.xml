@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ioannis Pavlidis | Peggy Lindner</title>
+    <link>/author/ioannis-pavlidis/</link>
+      <atom:link href="/author/ioannis-pavlidis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ioannis Pavlidis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png</url>
+      <title>Ioannis Pavlidis</title>
+      <link>/author/ioannis-pavlidis/</link>
+    </image>
+    
+    <item>
+      <title>The Face of Migraine; Thermal Imaging Revisited (P06. 154)</title>
+      <link>/publication/garza-face-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/garza-face-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eustressed or distressed? Combining physiology with observation in user studies</title>
+      <link>/publication/wesley-eustressed-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/wesley-eustressed-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast by nature-how stress patterns define human experience and performance in dexterous tasks</title>
+      <link>/publication/pavlidis-fast-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/pavlidis-fast-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatiotemporal smoothing as a basis for facial tissue tracking in thermal imaging</title>
+      <link>/publication/zhou-spatiotemporal-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/zhou-spatiotemporal-2012/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
