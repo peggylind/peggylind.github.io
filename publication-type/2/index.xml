@@ -5,7 +5,7 @@
     <link>/publication-type/2/</link>
       <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
+      <title>Terrorist organizations in the news: A computational and interdisciplinary approach to media attention towards terrorism</title>
+      <link>/publication/hellmueller-terrorist-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/hellmueller-terrorist-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Analysis of correlation between pediatric asthma exacerbation and exposure to pollutant mixtures with association rule mining</title>
       <link>/publication/toti-analysis-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>/publication/toti-analysis-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Face of Migraine; Thermal Imaging Revisited (P06.154)</title>
+      <link>/publication/garza-face-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/garza-face-2013/</guid>
       <description></description>
     </item>
     

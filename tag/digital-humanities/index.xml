@@ -5,12 +5,20 @@
     <link>/tag/digital-humanities/</link>
       <atom:link href="/tag/digital-humanities/index.xml" rel="self" type="application/rss+xml" />
     <description>Digital Humanities</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png</url>
       <title>Digital Humanities</title>
       <link>/tag/digital-humanities/</link>
     </image>
+    
+    <item>
+      <title>National Women&#39;s Conference</title>
+      <link>/project/nwc/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/project/nwc/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Syrios Project</title>

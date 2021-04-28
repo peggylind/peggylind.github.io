@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lea Hellmueller | Peggy Lindner</title>
+    <link>/author/lea-hellmueller/</link>
+      <atom:link href="/author/lea-hellmueller/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lea Hellmueller</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png</url>
+      <title>Lea Hellmueller</title>
+      <link>/author/lea-hellmueller/</link>
+    </image>
+    
+    <item>
+      <title>Terrorist organizations in the news: A computational and interdisciplinary approach to media attention towards terrorism</title>
+      <link>/publication/hellmueller-terrorist-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/hellmueller-terrorist-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mediating the 2020 U.S. Political Debates on Social Media: The impact of message function and visual framing on political deliberation on news outlets’ Facebook pages</title>
+      <link>/publication/hellmueller-mediating-2020/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/hellmueller-mediating-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terrorism in the News: Explaining Mediated Visibility of Organized Violence</title>
+      <link>/publication/hellmueller-terrorism-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/hellmueller-terrorism-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="A new machine learning (ML)/statistical-based methodology for conditioning and predicting production data for a well pad has been developed. Typically, data conditioning involves outlier detection, missing data, data imputation, and smoothing. Time-series production data prediction can be challenging because the target (wellbore oil production) depends on large-scale, high-dimensional data sets with unknown distributions and is influenced by missing data and outliers. Hence, data conditioning is key for accurate predictions. The current work is the first attempt at using ensemble ML and statistical techniques, such as multilayer perceptron (MLP), principal component analysis (PCA), and support vector regression (SVR), for well pad data conditioning using recently disclosed subsurface and production data from a field in the southern area of the Norwegian North Sea. The time-series forecasting based on large-scale, high-dimensional conditioned and cleaned data sets is also presented. The data with an oil production rate greater than 10 Sm3 have been retained for data cleansing, which reduced the size of the production well data set by 14.9%. Outliers are detected using the z-score method. The missing values are predicted using a trained ML model on all available nonmissing data. The procedure first predicts the downhole missing values from all the wells, including the available neighboring wells, and then uses these features to predict other missing values for the well pad. In this paper, the two approaches implemented and compared for prediction of missing data are MLP and SVR, and PCA is performed to extract the most important data features. Production data with 12 related variables (i.e., dates, hours, temperature, pressure, etc.) are used to explore the complex nonlinearity of features and estimate wellbore oil production with ML and deep-learning models. Conventional SVR and MLP methods are implemented as the benchmark. During this work, more than 60% of the missing and abnormal data from the field data set are detected and imputed using advanced ML methods, such as MLP and SVR with radial basis function kernel. More than 6% of data are outliers and are removed using the z-score method. The modified SVR with time-series data structure and long short-term memory (LSTM) algorithms are used for the comparisons. An R-squared (R2) of 98% is achieved for both the algorithms; however, LSTM has the lowest root mean square error (RMSE) results compared to SVR. Data conditioning is conventionally performed using statistical techniques, but here, an ensemble of ML techniques is used depending on the available data. This paper presents a new methodology to perform data conditioning and production prediction for a well pad using ML and neighboring well data. The ML algorithms used are highly efficient, as demonstrated by the results.">
+  <meta name="description" content="Abstract A new machine learning (ML)/statistical-based methodology for conditioning and predicting production data for a well pad has been developed. Typically, data conditioning involves outlier detection, missing data, data imputation, and smoothing. Time-series production data prediction can be challenging because the target (wellbore oil production) depends on large-scale, high-dimensional data sets with unknown distributions and is influenced by missing data and outliers. Hence, data conditioning is key for accurate predictions. The current work is the first attempt at using ensemble ML and statistical techniques, such as multilayer perceptron (MLP), principal component analysis (PCA), and support vector regression (SVR), for well pad data conditioning using recently disclosed subsurface and production data from a field in the southern area of the Norwegian North Sea. The time-series forecasting based on large-scale, high-dimensional conditioned and cleaned data sets is also presented. The data with an oil production rate greater than 10 Sm3 have been retained for data cleansing, which reduced the size of the production well data set by 14.9%. Outliers are detected using the z-score method. The missing values are predicted using a trained ML model on all available nonmissing data. The procedure first predicts the downhole missing values from all the wells, including the available neighboring wells, and then uses these features to predict other missing values for the well pad. In this paper, the two approaches implemented and compared for prediction of missing data are MLP and SVR, and PCA is performed to extract the most important data features. Production data with 12 related variables (i.e., dates, hours, temperature, pressure, etc.) are used to explore the complex nonlinearity of features and estimate wellbore oil production with ML and deep-learning models. Conventional SVR and MLP methods are implemented as the benchmark. During this work, more than 60% of the missing and abnormal data from the field data set are detected and imputed using advanced ML methods, such as MLP and SVR with radial basis function kernel. More than 6% of data are outliers and are removed using the z-score method. The modified SVR with time-series data structure and long short-term memory (LSTM) algorithms are used for the comparisons. An R-squared (R2) of 98% is achieved for both the algorithms; however, LSTM has the lowest root mean square error (RMSE) results compared to SVR. Data conditioning is conventionally performed using statistical techniques, but here, an ensemble of ML techniques is used depending on the available data. This paper presents a new methodology to perform data conditioning and production prediction for a well pad using ML and neighboring well data. The ML algorithms used are highly efficient, as demonstrated by the results.">
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/bagheri-data-2020/">
@@ -274,20 +274,21 @@
   
   
     
+    
   
   
-  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Peggy Lindner">
   <meta property="og:url" content="/publication/bagheri-data-2020/">
   <meta property="og:title" content="Data Conditioning and Forecasting Methodology using Machine Learning on Production Data for a Well Pad | Peggy Lindner">
-  <meta property="og:description" content="A new machine learning (ML)/statistical-based methodology for conditioning and predicting production data for a well pad has been developed. Typically, data conditioning involves outlier detection, missing data, data imputation, and smoothing. Time-series production data prediction can be challenging because the target (wellbore oil production) depends on large-scale, high-dimensional data sets with unknown distributions and is influenced by missing data and outliers. Hence, data conditioning is key for accurate predictions. The current work is the first attempt at using ensemble ML and statistical techniques, such as multilayer perceptron (MLP), principal component analysis (PCA), and support vector regression (SVR), for well pad data conditioning using recently disclosed subsurface and production data from a field in the southern area of the Norwegian North Sea. The time-series forecasting based on large-scale, high-dimensional conditioned and cleaned data sets is also presented. The data with an oil production rate greater than 10 Sm3 have been retained for data cleansing, which reduced the size of the production well data set by 14.9%. Outliers are detected using the z-score method. The missing values are predicted using a trained ML model on all available nonmissing data. The procedure first predicts the downhole missing values from all the wells, including the available neighboring wells, and then uses these features to predict other missing values for the well pad. In this paper, the two approaches implemented and compared for prediction of missing data are MLP and SVR, and PCA is performed to extract the most important data features. Production data with 12 related variables (i.e., dates, hours, temperature, pressure, etc.) are used to explore the complex nonlinearity of features and estimate wellbore oil production with ML and deep-learning models. Conventional SVR and MLP methods are implemented as the benchmark. During this work, more than 60% of the missing and abnormal data from the field data set are detected and imputed using advanced ML methods, such as MLP and SVR with radial basis function kernel. More than 6% of data are outliers and are removed using the z-score method. The modified SVR with time-series data structure and long short-term memory (LSTM) algorithms are used for the comparisons. An R-squared (R2) of 98% is achieved for both the algorithms; however, LSTM has the lowest root mean square error (RMSE) results compared to SVR. Data conditioning is conventionally performed using statistical techniques, but here, an ensemble of ML techniques is used depending on the available data. This paper presents a new methodology to perform data conditioning and production prediction for a well pad using ML and neighboring well data. The ML algorithms used are highly efficient, as demonstrated by the results."><meta property="og:image" content="/publication/bagheri-data-2020/featured.jpg">
-  <meta property="twitter:image" content="/publication/bagheri-data-2020/featured.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Abstract A new machine learning (ML)/statistical-based methodology for conditioning and predicting production data for a well pad has been developed. Typically, data conditioning involves outlier detection, missing data, data imputation, and smoothing. Time-series production data prediction can be challenging because the target (wellbore oil production) depends on large-scale, high-dimensional data sets with unknown distributions and is influenced by missing data and outliers. Hence, data conditioning is key for accurate predictions. The current work is the first attempt at using ensemble ML and statistical techniques, such as multilayer perceptron (MLP), principal component analysis (PCA), and support vector regression (SVR), for well pad data conditioning using recently disclosed subsurface and production data from a field in the southern area of the Norwegian North Sea. The time-series forecasting based on large-scale, high-dimensional conditioned and cleaned data sets is also presented. The data with an oil production rate greater than 10 Sm3 have been retained for data cleansing, which reduced the size of the production well data set by 14.9%. Outliers are detected using the z-score method. The missing values are predicted using a trained ML model on all available nonmissing data. The procedure first predicts the downhole missing values from all the wells, including the available neighboring wells, and then uses these features to predict other missing values for the well pad. In this paper, the two approaches implemented and compared for prediction of missing data are MLP and SVR, and PCA is performed to extract the most important data features. Production data with 12 related variables (i.e., dates, hours, temperature, pressure, etc.) are used to explore the complex nonlinearity of features and estimate wellbore oil production with ML and deep-learning models. Conventional SVR and MLP methods are implemented as the benchmark. During this work, more than 60% of the missing and abnormal data from the field data set are detected and imputed using advanced ML methods, such as MLP and SVR with radial basis function kernel. More than 6% of data are outliers and are removed using the z-score method. The modified SVR with time-series data structure and long short-term memory (LSTM) algorithms are used for the comparisons. An R-squared (R2) of 98% is achieved for both the algorithms; however, LSTM has the lowest root mean square error (RMSE) results compared to SVR. Data conditioning is conventionally performed using statistical techniques, but here, an ensemble of ML techniques is used depending on the available data. This paper presents a new methodology to perform data conditioning and production prediction for a well pad using ML and neighboring well data. The ML algorithms used are highly efficient, as demonstrated by the results."><meta property="og:image" content="/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-07-25T19:21:22&#43;00:00">
+      <meta property="article:published_time" content="2021-04-28T19:14:28&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-05-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2021-04-28T14:14:28-05:00">
   
 
   
@@ -313,12 +314,8 @@
   },
   "headline": "Data Conditioning and Forecasting Methodology using Machine Learning on Production Data for a Well Pad",
   
-  "image": [
-    "/publication/bagheri-data-2020/featured.jpg"
-  ],
-  
-  "datePublished": "2020-07-25T19:21:22Z",
-  "dateModified": "2020-05-01T00:00:00Z",
+  "datePublished": "2021-04-28T19:14:28Z",
+  "dateModified": "2021-04-28T14:14:28-05:00",
   
   "author": {
     "@type": "Person",
@@ -333,7 +330,7 @@
       "url": "/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "A new machine learning (ML)/statistical-based methodology for conditioning and predicting production data for a well pad has been developed. Typically, data conditioning involves outlier detection, missing data, data imputation, and smoothing. Time-series production data prediction can be challenging because the target (wellbore oil production) depends on large-scale, high-dimensional data sets with unknown distributions and is influenced by missing data and outliers. Hence, data conditioning is key for accurate predictions. The current work is the first attempt at using ensemble ML and statistical techniques, such as multilayer perceptron (MLP), principal component analysis (PCA), and support vector regression (SVR), for well pad data conditioning using recently disclosed subsurface and production data from a field in the southern area of the Norwegian North Sea. The time-series forecasting based on large-scale, high-dimensional conditioned and cleaned data sets is also presented. The data with an oil production rate greater than 10 Sm3 have been retained for data cleansing, which reduced the size of the production well data set by 14.9%. Outliers are detected using the z-score method. The missing values are predicted using a trained ML model on all available nonmissing data. The procedure first predicts the downhole missing values from all the wells, including the available neighboring wells, and then uses these features to predict other missing values for the well pad. In this paper, the two approaches implemented and compared for prediction of missing data are MLP and SVR, and PCA is performed to extract the most important data features. Production data with 12 related variables (i.e., dates, hours, temperature, pressure, etc.) are used to explore the complex nonlinearity of features and estimate wellbore oil production with ML and deep-learning models. Conventional SVR and MLP methods are implemented as the benchmark. During this work, more than 60% of the missing and abnormal data from the field data set are detected and imputed using advanced ML methods, such as MLP and SVR with radial basis function kernel. More than 6% of data are outliers and are removed using the z-score method. The modified SVR with time-series data structure and long short-term memory (LSTM) algorithms are used for the comparisons. An R-squared (R2) of 98% is achieved for both the algorithms; however, LSTM has the lowest root mean square error (RMSE) results compared to SVR. Data conditioning is conventionally performed using statistical techniques, but here, an ensemble of ML techniques is used depending on the available data. This paper presents a new methodology to perform data conditioning and production prediction for a well pad using ML and neighboring well data. The ML algorithms used are highly efficient, as demonstrated by the results."
+  "description": "Abstract A new machine learning (ML)/statistical-based methodology for conditioning and predicting production data for a well pad has been developed. Typically, data conditioning involves outlier detection, missing data, data imputation, and smoothing. Time-series production data prediction can be challenging because the target (wellbore oil production) depends on large-scale, high-dimensional data sets with unknown distributions and is influenced by missing data and outliers. Hence, data conditioning is key for accurate predictions. The current work is the first attempt at using ensemble ML and statistical techniques, such as multilayer perceptron (MLP), principal component analysis (PCA), and support vector regression (SVR), for well pad data conditioning using recently disclosed subsurface and production data from a field in the southern area of the Norwegian North Sea. The time-series forecasting based on large-scale, high-dimensional conditioned and cleaned data sets is also presented. The data with an oil production rate greater than 10 Sm3 have been retained for data cleansing, which reduced the size of the production well data set by 14.9%. Outliers are detected using the z-score method. The missing values are predicted using a trained ML model on all available nonmissing data. The procedure first predicts the downhole missing values from all the wells, including the available neighboring wells, and then uses these features to predict other missing values for the well pad. In this paper, the two approaches implemented and compared for prediction of missing data are MLP and SVR, and PCA is performed to extract the most important data features. Production data with 12 related variables (i.e., dates, hours, temperature, pressure, etc.) are used to explore the complex nonlinearity of features and estimate wellbore oil production with ML and deep-learning models. Conventional SVR and MLP methods are implemented as the benchmark. During this work, more than 60% of the missing and abnormal data from the field data set are detected and imputed using advanced ML methods, such as MLP and SVR with radial basis function kernel. More than 6% of data are outliers and are removed using the z-score method. The modified SVR with time-series data structure and long short-term memory (LSTM) algorithms are used for the comparisons. An R-squared (R2) of 98% is achieved for both the algorithms; however, LSTM has the lowest root mean square error (RMSE) results compared to SVR. Data conditioning is conventionally performed using statistical techniques, but here, an ensemble of ML techniques is used depending on the available data. This paper presents a new methodology to perform data conditioning and production prediction for a well pad using ML and neighboring well data. The ML algorithms used are highly efficient, as demonstrated by the results."
 }
 </script>
 
@@ -575,26 +572,18 @@
 
 
 
-
-
-
-
-
-
-
+  
 
   
   
-    
   
-
-
 <div class="article-container pt-3">
   <h1>Data Conditioning and Forecasting Methodology using Machine Learning on Production Data for a Well Pad</h1>
 
   
 
   
+    
 
 
 <div class="article-metadata">
@@ -635,7 +624,7 @@
 
 </div>
 
-  
+    
 
 
 
@@ -700,14 +689,7 @@
 </div>
 
 
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 480px;">
-  <div style="position: relative">
-    <img src="/publication/bagheri-data-2020/featured_hucc600f1d1027e7246fd02a3f658f18b4_270999_720x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
-    <span class="article-header-caption">Image credit: <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2191711"><strong>C Morrison from Pixabay</strong></a></span>
-  </div>
+  
 </div>
 
 
@@ -716,7 +698,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">A new machine learning (ML)/statistical-based methodology for conditioning and predicting production data for a well pad has been developed. Typically, data conditioning involves outlier detection, missing data, data imputation, and smoothing. Time-series production data prediction can be challenging because the target (wellbore oil production) depends on large-scale, high-dimensional data sets with unknown distributions and is influenced by missing data and outliers. Hence, data conditioning is key for accurate predictions. The current work is the first attempt at using ensemble ML and statistical techniques, such as multilayer perceptron (MLP), principal component analysis (PCA), and support vector regression (SVR), for well pad data conditioning using recently disclosed subsurface and production data from a field in the southern area of the Norwegian North Sea. The time-series forecasting based on large-scale, high-dimensional conditioned and cleaned data sets is also presented. The data with an oil production rate greater than 10 Sm3 have been retained for data cleansing, which reduced the size of the production well data set by 14.9%. Outliers are detected using the z-score method. The missing values are predicted using a trained ML model on all available nonmissing data. The procedure first predicts the downhole missing values from all the wells, including the available neighboring wells, and then uses these features to predict other missing values for the well pad. In this paper, the two approaches implemented and compared for prediction of missing data are MLP and SVR, and PCA is performed to extract the most important data features. Production data with 12 related variables (i.e., dates, hours, temperature, pressure, etc.) are used to explore the complex nonlinearity of features and estimate wellbore oil production with ML and deep-learning models. Conventional SVR and MLP methods are implemented as the benchmark. During this work, more than 60% of the missing and abnormal data from the field data set are detected and imputed using advanced ML methods, such as MLP and SVR with radial basis function kernel. More than 6% of data are outliers and are removed using the z-score method. The modified SVR with time-series data structure and long short-term memory (LSTM) algorithms are used for the comparisons. An R-squared (R2) of 98% is achieved for both the algorithms; however, LSTM has the lowest root mean square error (RMSE) results compared to SVR. Data conditioning is conventionally performed using statistical techniques, but here, an ensemble of ML techniques is used depending on the available data. This paper presents a new methodology to perform data conditioning and production prediction for a well pad using ML and neighboring well data. The ML algorithms used are highly efficient, as demonstrated by the results.</p>
+    <p class="pub-abstract">Abstract A new machine learning (ML)/statistical-based methodology for conditioning and predicting production data for a well pad has been developed. Typically, data conditioning involves outlier detection, missing data, data imputation, and smoothing. Time-series production data prediction can be challenging because the target (wellbore oil production) depends on large-scale, high-dimensional data sets with unknown distributions and is influenced by missing data and outliers. Hence, data conditioning is key for accurate predictions. The current work is the first attempt at using ensemble ML and statistical techniques, such as multilayer perceptron (MLP), principal component analysis (PCA), and support vector regression (SVR), for well pad data conditioning using recently disclosed subsurface and production data from a field in the southern area of the Norwegian North Sea. The time-series forecasting based on large-scale, high-dimensional conditioned and cleaned data sets is also presented. The data with an oil production rate greater than 10 Sm3 have been retained for data cleansing, which reduced the size of the production well data set by 14.9%. Outliers are detected using the z-score method. The missing values are predicted using a trained ML model on all available nonmissing data. The procedure first predicts the downhole missing values from all the wells, including the available neighboring wells, and then uses these features to predict other missing values for the well pad. In this paper, the two approaches implemented and compared for prediction of missing data are MLP and SVR, and PCA is performed to extract the most important data features. Production data with 12 related variables (i.e., dates, hours, temperature, pressure, etc.) are used to explore the complex nonlinearity of features and estimate wellbore oil production with ML and deep-learning models. Conventional SVR and MLP methods are implemented as the benchmark. During this work, more than 60% of the missing and abnormal data from the field data set are detected and imputed using advanced ML methods, such as MLP and SVR with radial basis function kernel. More than 6% of data are outliers and are removed using the z-score method. The modified SVR with time-series data structure and long short-term memory (LSTM) algorithms are used for the comparisons. An R-squared (R2) of 98% is achieved for both the algorithms; however, LSTM has the lowest root mean square error (RMSE) results compared to SVR. Data conditioning is conventionally performed using statistical techniques, but here, an ensemble of ML techniques is used depending on the available data. This paper presents a new methodology to perform data conditioning and production prediction for a well pad using ML and neighboring well data. The ML algorithms used are highly efficient, as demonstrated by the results.</p>
     
 
     
@@ -746,7 +728,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>Offshore Technology Conference-30854-MS</em></div>
+          <div class="col-12 col-md-9"><em>OTC-30854-MS</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -762,12 +744,6 @@
 
 
 
-
-<div class="article-tags">
-  
-  <a class="badge badge-light" href="/tag/oil/gas/">oil/gas</a>
-  
-</div>
 
 
 
@@ -957,6 +933,23 @@
 
 
   
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/toti-analysis-2016/">Analysis of correlation between pediatric asthma exacerbation and exposure to pollutant mixtures with association rule mining</a></li>
+      
+      <li><a href="/publication/toti-effect-2016/">Effect of the Definition of Non-Exposed Population in Risk Pattern Mining</a></li>
+      
+      <li><a href="/publication/garza-face-2013/">The Face of Migraine; Thermal Imaging Revisited (P06.154)</a></li>
+      
+      <li><a href="/publication/hellmueller-terrorist-2021/">Terrorist organizations in the news: A computational and interdisciplinary approach to media attention towards terrorism</a></li>
+      
+      <li><a href="/publication/hellmueller-mediating-2020/">Mediating the 2020 U.S. Political Debates on Social Media: The impact of message function and visual framing on political deliberation on news outlets’ Facebook pages</a></li>
+      
+    </ul>
+  </div>
   
 
 

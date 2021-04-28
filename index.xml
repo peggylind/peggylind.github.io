@@ -5,12 +5,52 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Peggy Lindner</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 24 May 2020 11:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 28 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png</url>
       <title>Peggy Lindner</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>A Database of Digital News in Fifteen African Countries</title>
+      <link>/project/afn/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/project/afn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>National Women&#39;s Conference</title>
+      <link>/project/nwc/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/project/nwc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terrorist organizations in the news: A computational and interdisciplinary approach to media attention towards terrorism</title>
+      <link>/publication/hellmueller-terrorist-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/hellmueller-terrorist-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How Leadership Can Reduce the Gender-Safety Priority Relationship</title>
+      <link>/publication/kazmi-how-2020/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/kazmi-how-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mediating the 2020 U.S. Political Debates on Social Media: The impact of message function and visual framing on political deliberation on news outlets’ Facebook pages</title>
+      <link>/publication/hellmueller-mediating-2020/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/hellmueller-mediating-2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>How to keep your head above water during a digital project</title>
@@ -36,7 +76,7 @@ Further talk details can easily be added to this page using *Markdown* and $\rm 
     <item>
       <title>Data Conditioning and Forecasting Methodology using Machine Learning on Production Data for a Well Pad</title>
       <link>/publication/bagheri-data-2020/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
       <guid>/publication/bagheri-data-2020/</guid>
       <description></description>
     </item>
@@ -80,9 +120,9 @@ Further talk details can easily be added to this page using *Markdown* and $\rm 
     
     <item>
       <title>Terrorism in the News: Explaining Mediated Visibility of Organized Violence</title>
-      <link>/publication/l-hellmueller-terrorism-2019/</link>
+      <link>/publication/hellmueller-terrorism-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/l-hellmueller-terrorism-2019/</guid>
+      <guid>/publication/hellmueller-terrorism-2019/</guid>
       <description></description>
     </item>
     
@@ -108,6 +148,15 @@ Further talk details can easily be added to this page using *Markdown* and $\rm 
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>/project/nasem/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Scholar data base</title>
+      <link>/project/scholarball/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/scholarball/</guid>
+      <description>&lt;p&gt;A comprehensive collection of ~5600 academic scholars across 65 STEM departments at Universities across the US. We manually extraced data from department websites and augmented with automatically scraped publication data from Google Scholar.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -151,7 +200,7 @@ Further talk details can easily be added to this page using *Markdown* and $\rm 
     </item>
     
     <item>
-      <title>The Face of Migraine; Thermal Imaging Revisited (P06. 154)</title>
+      <title>The Face of Migraine; Thermal Imaging Revisited (P06.154)</title>
       <link>/publication/garza-face-2013/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       <guid>/publication/garza-face-2013/</guid>
@@ -233,7 +282,7 @@ Further talk details can easily be added to this page using *Markdown* and $\rm 
     <item>
       <title>DFN-Project “GRIDWELTEN: User Requirements and Environments for GRID-Computing”</title>
       <link>/publication/lindner-dfn-project-2003/</link>
-      <pubDate>Wed, 01 Oct 2003 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 31 Oct 2003 00:00:00 +0000</pubDate>
       <guid>/publication/lindner-dfn-project-2003/</guid>
       <description></description>
     </item>

@@ -5,12 +5,28 @@
     <link>/project/</link>
       <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 28 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
       <link>/project/</link>
     </image>
+    
+    <item>
+      <title>A Database of Digital News in Fifteen African Countries</title>
+      <link>/project/afn/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/project/afn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>National Women&#39;s Conference</title>
+      <link>/project/nwc/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/project/nwc/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>HNET Datamaps</title>
@@ -26,6 +42,15 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>/project/nasem/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Scholar data base</title>
+      <link>/project/scholarball/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/scholarball/</guid>
+      <description>&lt;p&gt;A comprehensive collection of ~5600 academic scholars across 65 STEM departments at Universities across the US. We manually extraced data from department websites and augmented with automatically scraped publication data from Google Scholar.&lt;/p&gt;
+</description>
     </item>
     
     <item>
