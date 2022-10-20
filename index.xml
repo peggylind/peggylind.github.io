@@ -5,12 +5,52 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Peggy Lindner</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 28 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_3.png</url>
       <title>Peggy Lindner</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Higher Research Productivity = More pay? Gender Pay-for-Productivity Inequity Across Disciplines</title>
+      <link>/publication/samaniego-higher-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/samaniego-higher-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Numismatics and Data Visualization for Ancient Antioch</title>
+      <link>/publication/neumann-digital-2022/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/neumann-digital-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gentle approaches to support large scale manual data curation</title>
+      <link>/publication/lindner-gentle-2022/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/lindner-gentle-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Measuring and Analyzing Online Social Communications</title>
+      <link>/publication/bronk-machine-2021/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/bronk-machine-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimization of an Algorithm Using Aerosol Optical Properties to Investigate the Influence of Biomass Burning on an Urban Atmosphere – (BC)2 2021 Field Campaign</title>
+      <link>/publication/graham-optimization-2021/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/graham-optimization-2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Database of Digital News in Fifteen African Countries</title>
@@ -33,29 +73,16 @@
       <link>/misc/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       <guid>/misc/</guid>
-      <description>&lt;p&gt;Position Title: Postdoctoral Fellow or Research Assistant Professor in Data Science&lt;/p&gt;
-&lt;p&gt;Location: 
-&lt;a href=&#34;https://uh.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Houston&lt;/a&gt;, Houston, TX, 77204&lt;/p&gt;
-&lt;p&gt;Salary range: $50K to $60K (depending on experience and qualifications)
-Health benefits: Yes&lt;/p&gt;
-&lt;p&gt;Position Description: A Research Assistant Professor position is available in the laboratory of Assistant Professor 
-&lt;a href=&#34;https://peggylind.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Peggy Lindner&lt;/a&gt; in the 
-&lt;a href=&#34;https://www.uh.edu/technology/departments/ilt/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Department of Information &amp;amp; Logistics Technology (ILT)&lt;/a&gt;. We are seeking a proactive and collaborative data and information scientist to conduct research centered around:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;bringing modeling and computer simulation of social processes together with technology, experimental, and data-driven work;&lt;/li&gt;
-&lt;li&gt;combining the perspectives of different scientific disciplines (e.g., social science, computer science, complexity science);&lt;/li&gt;
-&lt;li&gt;bridging fundamental and applied work;&lt;/li&gt;
-&lt;li&gt;developing digital tools to support people and studying the resulting behavior.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The ILT department is collaborative and will provide a supportive training environment with opportunity to mentor undergraduates, develop new methods and expand scientific writing/communication skills.&lt;/p&gt;
-&lt;h4 id=&#34;job-requirements&#34;&gt;Job Requirements&lt;/h4&gt;
-&lt;p&gt;The candidate should have an excellent research background in computer science, computational social science, or data mining, with a strong publication track record. The minimum requirement is an earned doctorate in Data Science, Information Science, Computer Science, or other related fields at the time of appointment. Candidates will demonstrate evidence of effective teaching in the broad areas of Computer Science and Information Science.&lt;/p&gt;
-&lt;p&gt;Excellent scientific and computational skills, English language skills, social skills, and ability to identify significant and relevant research questions; familiarity with multiple research methodologies; ability to work on interdisciplinary and multidisciplinary research projects; effective presentation and written and verbal communication skills; experience preparing, creating, and/or presenting published work.&lt;/p&gt;
-&lt;p&gt;You are required to submit: Resume, list of publications, nmae and contact information for 3 references, transcript and three best publications (journal papers or peer-reviewed conference papers in international conferences).  Please send your application directly to 
-&lt;a href=&#34;mailto:plindner@uh.edu&#34;&gt;plindner-At-uh.edu&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Job interviews are expected to take place mainly in May 2021.
-&lt;strong&gt;The position would start on September 1st, 2021.&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;p&gt;There are currently no openings.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Digital Numismatics: A Wealth of Evidence for Ancient Syria</title>
+      <link>/publication/neumann-digital-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/neumann-digital-2021/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -153,6 +180,14 @@ Further talk details can easily be added to this page using *Markdown* and $\rm 
       <link>/publication/hellmueller-terrorism-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/publication/hellmueller-terrorism-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generating Word Embeddings from an Extreme Learning Machine for Sentiment Analysis and Sequence Labeling Tasks</title>
+      <link>/publication/lauren-generating-2018/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/lauren-generating-2018/</guid>
       <description></description>
     </item>
     

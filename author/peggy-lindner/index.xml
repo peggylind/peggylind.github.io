@@ -5,12 +5,60 @@
     <link>/author/peggy-lindner/</link>
       <atom:link href="/author/peggy-lindner/index.xml" rel="self" type="application/rss+xml" />
     <description>Peggy Lindner</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_3.png</url>
       <title>Peggy Lindner</title>
       <link>/author/peggy-lindner/</link>
     </image>
+    
+    <item>
+      <title>Higher Research Productivity = More pay? Gender Pay-for-Productivity Inequity Across Disciplines</title>
+      <link>/publication/samaniego-higher-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/samaniego-higher-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Numismatics and Data Visualization for Ancient Antioch</title>
+      <link>/publication/neumann-digital-2022/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/neumann-digital-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gentle approaches to support large scale manual data curation</title>
+      <link>/publication/lindner-gentle-2022/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/lindner-gentle-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Measuring and Analyzing Online Social Communications</title>
+      <link>/publication/bronk-machine-2021/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/bronk-machine-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimization of an Algorithm Using Aerosol Optical Properties to Investigate the Influence of Biomass Burning on an Urban Atmosphere – (BC)2 2021 Field Campaign</title>
+      <link>/publication/graham-optimization-2021/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/graham-optimization-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Numismatics: A Wealth of Evidence for Ancient Syria</title>
+      <link>/publication/neumann-digital-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/neumann-digital-2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Terrorist organizations in the news: A computational and interdisciplinary approach to media attention towards terrorism</title>

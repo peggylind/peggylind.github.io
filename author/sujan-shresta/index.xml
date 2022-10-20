@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sujan Shresta | Peggy Lindner</title>
+    <link>/author/sujan-shresta/</link>
+      <atom:link href="/author/sujan-shresta/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sujan Shresta</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_3.png</url>
+      <title>Sujan Shresta</title>
+      <link>/author/sujan-shresta/</link>
+    </image>
+    
+    <item>
+      <title>Optimization of an Algorithm Using Aerosol Optical Properties to Investigate the Influence of Biomass Burning on an Urban Atmosphere – (BC)2 2021 Field Campaign</title>
+      <link>/publication/graham-optimization-2021/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/graham-optimization-2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

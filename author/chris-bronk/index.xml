@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chris Bronk | Peggy Lindner</title>
+    <link>/author/chris-bronk/</link>
+      <atom:link href="/author/chris-bronk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chris Bronk</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_3.png</url>
+      <title>Chris Bronk</title>
+      <link>/author/chris-bronk/</link>
+    </image>
+    
+    <item>
+      <title>Machine Learning for Measuring and Analyzing Online Social Communications</title>
+      <link>/publication/bronk-machine-2021/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/bronk-machine-2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
