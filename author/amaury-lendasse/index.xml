@@ -20,5 +20,16 @@
       <description></description>
     </item>
     
+<<<<<<< HEAD
+=======
+    <item>
+      <title>Generating Word Embeddings from an Extreme Learning Machine for Sentiment Analysis and Sequence Labeling Tasks</title>
+      <link>/publication/lauren-generating-2018/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/lauren-generating-2018/</guid>
+      <description></description>
+    </item>
+    
+>>>>>>> 7401b328821560a71b328f210251f9b5ddb093cf
   </channel>
 </rss>

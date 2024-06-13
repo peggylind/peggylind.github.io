@@ -5,7 +5,11 @@
     <link>/publication-type/1/</link>
       <atom:link href="/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
+<<<<<<< HEAD
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+=======
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
+>>>>>>> 7401b328821560a71b328f210251f9b5ddb093cf
     <image>
       <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
@@ -13,6 +17,7 @@
     </image>
     
     <item>
+<<<<<<< HEAD
       <title>Exploring Computing Science Programs&#39; Admission Procedures with a Diversity and Inclusion Lens</title>
       <link>/publication/baghban-karimi-exploring-2023/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
@@ -21,10 +26,55 @@
     </item>
     
     <item>
+=======
+>>>>>>> 7401b328821560a71b328f210251f9b5ddb093cf
       <title>Digital Numismatics and Data Visualization for Ancient Antioch</title>
       <link>/publication/neumann-digital-2022/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <guid>/publication/neumann-digital-2022/</guid>
+<<<<<<< HEAD
+=======
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gentle approaches to support large scale manual data curation</title>
+      <link>/publication/lindner-gentle-2022/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/lindner-gentle-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Measuring and Analyzing Online Social Communications</title>
+      <link>/publication/bronk-machine-2021/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/bronk-machine-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimization of an Algorithm Using Aerosol Optical Properties to Investigate the Influence of Biomass Burning on an Urban Atmosphere – (BC)2 2021 Field Campaign</title>
+      <link>/publication/graham-optimization-2021/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/graham-optimization-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Numismatics: A Wealth of Evidence for Ancient Syria</title>
+      <link>/publication/neumann-digital-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/neumann-digital-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How Leadership Can Reduce the Gender-Safety Priority Relationship</title>
+      <link>/publication/kazmi-how-2020/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/kazmi-how-2020/</guid>
+>>>>>>> 7401b328821560a71b328f210251f9b5ddb093cf
       <description></description>
     </item>
     
