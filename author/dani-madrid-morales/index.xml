@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dani Madrid-Morales | Peggy Lindner</title>
+    <link>/author/dani-madrid-morales/</link>
+      <atom:link href="/author/dani-madrid-morales/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dani Madrid-Morales</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_3.png</url>
+      <title>Dani Madrid-Morales</title>
+      <link>/author/dani-madrid-morales/</link>
+    </image>
+    
+    <item>
+      <title>A Computational Mapping of Online News Deserts on African News Websites</title>
+      <link>/publication/madrid-morales-computational-2023/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/madrid-morales-computational-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Corpus of African Digital News from 600 Websites Formatted for Text Mining / Computational Text Analysis</title>
+      <link>/publication/africanews-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/africanews-2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

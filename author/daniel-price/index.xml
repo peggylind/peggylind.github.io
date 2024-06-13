@@ -5,12 +5,20 @@
     <link>/author/daniel-price/</link>
       <atom:link href="/author/daniel-price/index.xml" rel="self" type="application/rss+xml" />
     <description>Daniel Price</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 May 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_3.png</url>
       <title>Daniel Price</title>
       <link>/author/daniel-price/</link>
     </image>
+    
+    <item>
+      <title>Effect of the Definition of Non-Exposed Population in Risk Pattern Mining</title>
+      <link>/publication/toti-effect-2016/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/toti-effect-2016/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Air quality simulations using big data programming models</title>
@@ -25,14 +33,6 @@
       <link>/publication/toti-analysis-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>/publication/toti-analysis-2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Effect of the Definition of Non-Exposed Population in Risk Pattern Mining</title>
-      <link>/publication/toti-effect-2016/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/toti-effect-2016/</guid>
       <description></description>
     </item>
     

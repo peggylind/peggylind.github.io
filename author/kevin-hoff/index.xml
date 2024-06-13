@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kevin Hoff | Peggy Lindner</title>
+    <link>/author/kevin-hoff/</link>
+      <atom:link href="/author/kevin-hoff/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kevin Hoff</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_3.png</url>
+      <title>Kevin Hoff</title>
+      <link>/author/kevin-hoff/</link>
+    </image>
+    
+    <item>
+      <title>Mindfulness and workplace safety: An integrative review</title>
+      <link>/publication/liu-mindfulness-2023/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/liu-mindfulness-2023/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Connor L. Cheek | Peggy Lindner</title>
+    <link>/author/connor-l.-cheek/</link>
+      <atom:link href="/author/connor-l.-cheek/index.xml" rel="self" type="application/rss+xml" />
+    <description>Connor L. Cheek</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_3.png</url>
+      <title>Connor L. Cheek</title>
+      <link>/author/connor-l.-cheek/</link>
+    </image>
+    
+    <item>
+      <title>Statistical and Machine Learning Analysis in Brain-Imaging Genetics: A Review of Methods</title>
+      <link>/publication/cheek-statistical-2024/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/cheek-statistical-2024/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

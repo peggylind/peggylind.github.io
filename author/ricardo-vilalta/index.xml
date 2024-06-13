@@ -5,26 +5,26 @@
     <link>/author/ricardo-vilalta/</link>
       <atom:link href="/author/ricardo-vilalta/index.xml" rel="self" type="application/rss+xml" />
     <description>Ricardo Vilalta</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 May 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_3.png</url>
       <title>Ricardo Vilalta</title>
       <link>/author/ricardo-vilalta/</link>
     </image>
+    
+    <item>
+      <title>Effect of the Definition of Non-Exposed Population in Risk Pattern Mining</title>
+      <link>/publication/toti-effect-2016/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/toti-effect-2016/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Analysis of correlation between pediatric asthma exacerbation and exposure to pollutant mixtures with association rule mining</title>
       <link>/publication/toti-analysis-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>/publication/toti-analysis-2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Effect of the Definition of Non-Exposed Population in Risk Pattern Mining</title>
-      <link>/publication/toti-effect-2016/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/toti-effect-2016/</guid>
       <description></description>
     </item>
     

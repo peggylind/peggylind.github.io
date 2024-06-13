@@ -5,12 +5,161 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Peggy Lindner</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 28 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 13 Jun 2024 14:16:03 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_3.png</url>
       <title>Peggy Lindner</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>The Democratic Value of Strategic Game Reporting and Uncivil Talk: A Computational Analysis of Facebook Conversations During U.S. Primary Debates</title>
+      <link>/publication/camaj-2024/</link>
+      <pubDate>Thu, 13 Jun 2024 14:16:03 +0000</pubDate>
+      <guid>/publication/camaj-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Public History to Study Modern Feminism</title>
+      <link>/talk/sharingstoriesncph/</link>
+      <pubDate>Sat, 13 Apr 2024 01:30:00 +0000</pubDate>
+      <guid>/talk/sharingstoriesncph/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- Slides can be added in a few ways:
+
+- **Create** slides using Academic&#39;s [*Slides*](https://sourcethemes.com/academic/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+
+Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Statistical and Machine Learning Analysis in Brain-Imaging Genetics: A Review of Methods</title>
+      <link>/publication/cheek-statistical-2024/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/cheek-statistical-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Underrepresented Minority Faculty Face Double Standard in Promotion and Tenure Decisions</title>
+      <link>/publication/waage-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/waage-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mindfulness and workplace safety: An integrative review</title>
+      <link>/publication/liu-mindfulness-2023/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/liu-mindfulness-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Computational Mapping of Online News Deserts on African News Websites</title>
+      <link>/publication/madrid-morales-computational-2023/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/madrid-morales-computational-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring Computing Science Programs&#39; Admission Procedures with a Diversity and Inclusion Lens</title>
+      <link>/publication/baghban-karimi-exploring-2023/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/baghban-karimi-exploring-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Higher research productivity = more pay? Gender pay-for-productivity inequity across disciplines</title>
+      <link>/publication/samaniego-higher-2023/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/samaniego-higher-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Numismatics and Data Visualization for Ancient Antioch</title>
+      <link>/publication/neumann-digital-2022/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/neumann-digital-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fairness and Bias in promotion &amp; Tenure</title>
+      <link>/project/erl/</link>
+      <pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>/project/erl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gentle approaches to support large scale manual data curation</title>
+      <link>/publication/lindner-gentle-2022/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/lindner-gentle-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sharing Stories from 1977: Creating a Feminist Digital Humanities Project</title>
+      <link>/publication/wu-sharing-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/wu-sharing-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring Research Productivity at Scale</title>
+      <link>/publication/lindner-measuring-2021/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/lindner-measuring-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimization of an Algorithm Using Aerosol Optical Properties to Investigate the Influence of Biomass Burning on an Urban Atmosphere (BC)2 2021 Field Campaign</title>
+      <link>/publication/graham-optimization-2021/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/graham-optimization-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Measuring and Analyzing Online Social Communications</title>
+      <link>/publication/bronk-machine-2021/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/bronk-machine-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terrorist Organizations in the News: A Computational Approach to Measure Media Attention Toward Terrorism</title>
+      <link>/publication/hellmueller-terrorist-2021/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/hellmueller-terrorist-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mediating the 2020 U.S. Political Debates on Social Media: The impact of message function and visual framing on political deliberation on news outlets&#39; Facebook pages</title>
+      <link>/publication/hellmueller-mediating-2021/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/hellmueller-mediating-2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Database of Digital News in Fifteen African Countries</title>
@@ -33,36 +182,23 @@
       <link>/misc/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       <guid>/misc/</guid>
-      <description>&lt;p&gt;Position Title: Postdoctoral Fellow or Research Assistant Professor in Data Science&lt;/p&gt;
-&lt;p&gt;Location: 
-&lt;a href=&#34;https://uh.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Houston&lt;/a&gt;, Houston, TX, 77204&lt;/p&gt;
-&lt;p&gt;Salary range: $50K to $60K (depending on experience and qualifications)
-Health benefits: Yes&lt;/p&gt;
-&lt;p&gt;Position Description: A Research Assistant Professor position is available in the laboratory of Assistant Professor 
-&lt;a href=&#34;https://peggylind.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Peggy Lindner&lt;/a&gt; in the 
-&lt;a href=&#34;https://www.uh.edu/technology/departments/ilt/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Department of Information &amp;amp; Logistics Technology (ILT)&lt;/a&gt;. We are seeking a proactive and collaborative data and information scientist to conduct research centered around:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;bringing modeling and computer simulation of social processes together with technology, experimental, and data-driven work;&lt;/li&gt;
-&lt;li&gt;combining the perspectives of different scientific disciplines (e.g., social science, computer science, complexity science);&lt;/li&gt;
-&lt;li&gt;bridging fundamental and applied work;&lt;/li&gt;
-&lt;li&gt;developing digital tools to support people and studying the resulting behavior.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The ILT department is collaborative and will provide a supportive training environment with opportunity to mentor undergraduates, develop new methods and expand scientific writing/communication skills.&lt;/p&gt;
-&lt;h4 id=&#34;job-requirements&#34;&gt;Job Requirements&lt;/h4&gt;
-&lt;p&gt;The candidate should have an excellent research background in computer science, computational social science, or data mining, with a strong publication track record. The minimum requirement is an earned doctorate in Data Science, Information Science, Computer Science, or other related fields at the time of appointment. Candidates will demonstrate evidence of effective teaching in the broad areas of Computer Science and Information Science.&lt;/p&gt;
-&lt;p&gt;Excellent scientific and computational skills, English language skills, social skills, and ability to identify significant and relevant research questions; familiarity with multiple research methodologies; ability to work on interdisciplinary and multidisciplinary research projects; effective presentation and written and verbal communication skills; experience preparing, creating, and/or presenting published work.&lt;/p&gt;
-&lt;p&gt;You are required to submit: Resume, list of publications, nmae and contact information for 3 references, transcript and three best publications (journal papers or peer-reviewed conference papers in international conferences).  Please send your application directly to 
-&lt;a href=&#34;mailto:plindner@uh.edu&#34;&gt;plindner-At-uh.edu&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Job interviews are expected to take place mainly in May 2021.
-&lt;strong&gt;The position would start on September 1st, 2021.&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;p&gt;There are currently no openings.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Terrorist organizations in the news: A computational and interdisciplinary approach to media attention towards terrorism</title>
-      <link>/publication/hellmueller-terrorist-2021/</link>
+      <title>Corpus of African Digital News from 600 Websites Formatted for Text Mining / Computational Text Analysis</title>
+      <link>/publication/africanews-2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/hellmueller-terrorist-2021/</guid>
+      <guid>/publication/africanews-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Numismatics: A Wealth of Evidence for Ancient Syria</title>
+      <link>/publication/neumann-digital-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/neumann-digital-2021/</guid>
       <description></description>
     </item>
     
@@ -71,14 +207,6 @@ Health benefits: Yes&lt;/p&gt;
       <link>/publication/kazmi-how-2020/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>/publication/kazmi-how-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mediating the 2020 U.S. Political Debates on Social Media: The impact of message function and visual framing on political deliberation on news outlets’ Facebook pages</title>
-      <link>/publication/hellmueller-mediating-2020/</link>
-      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/hellmueller-mediating-2020/</guid>
       <description></description>
     </item>
     
@@ -106,7 +234,7 @@ Further talk details can easily be added to this page using *Markdown* and $\rm 
     <item>
       <title>Data Conditioning and Forecasting Methodology using Machine Learning on Production Data for a Well Pad</title>
       <link>/publication/bagheri-data-2020/</link>
-      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       <guid>/publication/bagheri-data-2020/</guid>
       <description></description>
     </item>
@@ -165,6 +293,14 @@ Further talk details can easily be added to this page using *Markdown* and $\rm 
     </item>
     
     <item>
+      <title>Effect of the Definition of Non-Exposed Population in Risk Pattern Mining</title>
+      <link>/publication/toti-effect-2016/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/toti-effect-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>HNET Datamaps</title>
       <link>/project/hnet/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
@@ -210,14 +346,6 @@ Further talk details can easily be added to this page using *Markdown* and $\rm 
       <link>/publication/toti-analysis-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>/publication/toti-analysis-2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Effect of the Definition of Non-Exposed Population in Risk Pattern Mining</title>
-      <link>/publication/toti-effect-2016/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/toti-effect-2016/</guid>
       <description></description>
     </item>
     
@@ -312,7 +440,7 @@ Further talk details can easily be added to this page using *Markdown* and $\rm 
     <item>
       <title>DFN-Project “GRIDWELTEN: User Requirements and Environments for GRID-Computing”</title>
       <link>/publication/lindner-dfn-project-2003/</link>
-      <pubDate>Fri, 31 Oct 2003 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Oct 2003 00:00:00 +0000</pubDate>
       <guid>/publication/lindner-dfn-project-2003/</guid>
       <description></description>
     </item>

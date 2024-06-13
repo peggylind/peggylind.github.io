@@ -5,18 +5,34 @@
     <link>/author/giulia-toti/</link>
       <atom:link href="/author/giulia-toti/index.xml" rel="self" type="application/rss+xml" />
     <description>Giulia Toti</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 04 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_3.png</url>
       <title>Giulia Toti</title>
       <link>/author/giulia-toti/</link>
     </image>
     
     <item>
+      <title>Exploring Computing Science Programs&#39; Admission Procedures with a Diversity and Inclusion Lens</title>
+      <link>/publication/baghban-karimi-exploring-2023/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/baghban-karimi-exploring-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data Conditioning and Forecasting Methodology using Machine Learning on Production Data for a Well Pad</title>
       <link>/publication/bagheri-data-2020/</link>
-      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       <guid>/publication/bagheri-data-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effect of the Definition of Non-Exposed Population in Risk Pattern Mining</title>
+      <link>/publication/toti-effect-2016/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/toti-effect-2016/</guid>
       <description></description>
     </item>
     
@@ -25,14 +41,6 @@
       <link>/publication/toti-analysis-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>/publication/toti-analysis-2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Effect of the Definition of Non-Exposed Population in Risk Pattern Mining</title>
-      <link>/publication/toti-effect-2016/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/toti-effect-2016/</guid>
       <description></description>
     </item>
     

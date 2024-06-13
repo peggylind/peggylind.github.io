@@ -5,12 +5,76 @@
     <link>/publication-type/1/</link>
       <atom:link href="/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Exploring Computing Science Programs&#39; Admission Procedures with a Diversity and Inclusion Lens</title>
+      <link>/publication/baghban-karimi-exploring-2023/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/baghban-karimi-exploring-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Numismatics and Data Visualization for Ancient Antioch</title>
+      <link>/publication/neumann-digital-2022/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/neumann-digital-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gentle approaches to support large scale manual data curation</title>
+      <link>/publication/lindner-gentle-2022/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/lindner-gentle-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring Research Productivity at Scale</title>
+      <link>/publication/lindner-measuring-2021/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/lindner-measuring-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimization of an Algorithm Using Aerosol Optical Properties to Investigate the Influence of Biomass Burning on an Urban Atmosphere (BC)2 2021 Field Campaign</title>
+      <link>/publication/graham-optimization-2021/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/graham-optimization-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Measuring and Analyzing Online Social Communications</title>
+      <link>/publication/bronk-machine-2021/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/bronk-machine-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mediating the 2020 U.S. Political Debates on Social Media: The impact of message function and visual framing on political deliberation on news outlets&#39; Facebook pages</title>
+      <link>/publication/hellmueller-mediating-2021/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/hellmueller-mediating-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Numismatics: A Wealth of Evidence for Ancient Syria</title>
+      <link>/publication/neumann-digital-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/neumann-digital-2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>How Leadership Can Reduce the Gender-Safety Priority Relationship</title>
@@ -21,17 +85,9 @@
     </item>
     
     <item>
-      <title>Mediating the 2020 U.S. Political Debates on Social Media: The impact of message function and visual framing on political deliberation on news outlets’ Facebook pages</title>
-      <link>/publication/hellmueller-mediating-2020/</link>
-      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/hellmueller-mediating-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Data Conditioning and Forecasting Methodology using Machine Learning on Production Data for a Well Pad</title>
       <link>/publication/bagheri-data-2020/</link>
-      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       <guid>/publication/bagheri-data-2020/</guid>
       <description></description>
     </item>
@@ -61,6 +117,14 @@
     </item>
     
     <item>
+      <title>Effect of the Definition of Non-Exposed Population in Risk Pattern Mining</title>
+      <link>/publication/toti-effect-2016/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/toti-effect-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Air quality simulations using big data programming models</title>
       <link>/publication/ayyalasomayajula-air-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
@@ -69,18 +133,18 @@
     </item>
     
     <item>
-      <title>Effect of the Definition of Non-Exposed Population in Risk Pattern Mining</title>
-      <link>/publication/toti-effect-2016/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/toti-effect-2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Applying a level set method for resolving physiologic motions in free-breathing and non-gated cardiac mri</title>
       <link>/publication/uyanik-applying-2013/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       <guid>/publication/uyanik-applying-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eustressed or distressed? Combining physiology with observation in user studies</title>
+      <link>/publication/wesley-eustressed-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/wesley-eustressed-2012/</guid>
       <description></description>
     </item>
     

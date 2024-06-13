@@ -1,603 +1,585 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>/project/afn/</loc>
-    <lastmod>2021-04-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2021-04-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/social-computing/</loc>
-    <lastmod>2021-04-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2021-04-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/digital-humanities/</loc>
-    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/nwc/</loc>
-    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/misc/</loc>
-    <lastmod>2021-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
   <url>
     <loc>/publication-type/2/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
     <loc>/authors/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
     <loc>/author/lea-hellmueller/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
+    <loc>/author/lindita-camaj/</loc>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
     <loc>/author/peggy-lindner/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
     <loc>/publication_types/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
     <loc>/publication/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/hellmueller-terrorist-2021/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/valerie-hase/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/allison-tsao/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/charissa-samaniego/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
+    <loc>/author/sebastian-vallejo-vera/</loc>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
+    <loc>/publication/camaj-2024/</loc>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
+    <loc>/author/allison-perlman/</loc>
+    <lastmod>2024-04-13T01:30:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/cady-hammer/</loc>
+    <lastmod>2024-04-13T01:30:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/elizabeth-rodwell/</loc>
+    <lastmod>2024-06-13T16:16:02+02:00</lastmod>
+  </url><url>
+    <loc>/author/leandra-zarnow/</loc>
+    <lastmod>2024-06-13T16:16:02+02:00</lastmod>
+  </url><url>
+    <loc>/author/nancy-beck-young/</loc>
+    <lastmod>2024-06-13T16:16:02+02:00</lastmod>
+  </url><url>
+    <loc>/author/rahil-asgari/</loc>
+    <lastmod>2024-04-13T01:30:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/</loc>
+    <lastmod>2024-04-13T01:30:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/sharingstoriesncph/</loc>
+    <lastmod>2024-04-13T01:30:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/connor-l.-cheek/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/author/elena-l.-grigorenko/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/publication/cheek-statistical-2024/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/author/ally-gutierrez/</loc>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
     <loc>/author/christiane-spitzmueller/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
+    <loc>/author/cynthia-werner/</loc>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
+    <loc>/author/ebenezer-edema-sillo/</loc>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
+    <loc>/author/erika-henderson/</loc>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
+    <loc>/author/juan-madera/</loc>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
+    <loc>/author/michelle-penn-marshall/</loc>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
+    <loc>/author/theo-masters-waage/</loc>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
+    <loc>/author/tracey-rizzuto/</loc>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
+    <loc>/publication/waage-2024/</loc>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
+    <loc>/author/erica-baranski/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/author/galen-snyder/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/author/kevin-hoff/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/publication/liu-mindfulness-2023/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/author/rhona-flin/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/author/zihan-liu/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/publication/madrid-morales-computational-2023/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/author/dani-madrid-morales/</loc>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
+    <loc>/author/joan-ramon-rodriguez-amat/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/publication-type/1/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/publication/baghban-karimi-exploring-2023/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/author/giulia-toti/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/author/james-h-paterson/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/author/lisa-zhang/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/author/michael-odea/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/author/mirela-gutica/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/author/ouldooz-baghban-karimi/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/author/rebecca-robinson/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/author/bobbie-a.-dirr/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/author/charissa-samaniego/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/author/dejun-tony-kong/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/author/evonzia-jeff-eke/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/publication/samaniego-higher-2023/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/author/maryam-a.-kazmi/</loc>
+    <lastmod>2024-06-13T16:16:03+02:00</lastmod>
+  </url><url>
+    <loc>/publication/neumann-digital-2022/</loc>
+    <lastmod>2024-06-13T16:16:02+02:00</lastmod>
+  </url><url>
+    <loc>/author/kristina-neumann/</loc>
+    <lastmod>2024-06-13T16:16:02+02:00</lastmod>
+  </url><url>
+    <loc>/project/erl/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/social-computing/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/lindner-gentle-2022/</loc>
+    <lastmod>2024-06-13T16:16:02+02:00</lastmod>
+  </url><url>
+    <loc>/author/caitlyn-jones/</loc>
+    <lastmod>2024-06-13T16:16:02+02:00</lastmod>
+  </url><url>
+    <loc>/author/judy-tzu-chun-wu/</loc>
+    <lastmod>2024-06-13T16:16:02+02:00</lastmod>
+  </url><url>
+    <loc>/publication/wu-sharing-2022/</loc>
+    <lastmod>2024-06-13T16:16:02+02:00</lastmod>
+  </url><url>
+    <loc>/author/eugenia-velasco/</loc>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
+    <loc>/author/james-flynn/</loc>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
+    <loc>/author/mackenzie-graham/</loc>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
+    <loc>/author/manisha-mehra/</loc>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
+    <loc>/publication/lindner-measuring-2021/</loc>
+    <lastmod>2024-06-13T16:16:02+02:00</lastmod>
+  </url><url>
+    <loc>/publication/graham-optimization-2021/</loc>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
+    <loc>/author/rebecca-sheesley/</loc>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
+    <loc>/author/sascha-usenko/</loc>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
+    <loc>/author/subin-yoon/</loc>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
+    <loc>/author/sujan-shrestha/</loc>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
+    <loc>/author/amaury-lendasse/</loc>
+    <lastmod>2024-06-13T16:16:02+02:00</lastmod>
+  </url><url>
+    <loc>/author/barbara-hammer/</loc>
+    <lastmod>2024-06-13T16:16:02+02:00</lastmod>
+  </url><url>
+    <loc>/author/chris-bronk/</loc>
+    <lastmod>2024-06-13T16:16:02+02:00</lastmod>
+  </url><url>
+    <loc>/author/dan-wallach/</loc>
+    <lastmod>2024-06-13T16:16:02+02:00</lastmod>
+  </url><url>
+    <loc>/publication/bronk-machine-2021/</loc>
+    <lastmod>2024-06-13T16:16:02+02:00</lastmod>
+  </url><url>
+    <loc>/author/l.-hellmueller/</loc>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
+    <loc>/author/p.-lindner/</loc>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
+    <loc>/publication/hellmueller-terrorist-2021/</loc>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
+    <loc>/author/v.-hase/</loc>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
+    <loc>/publication/hellmueller-mediating-2021/</loc>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
+    <loc>/project/afn/</loc>
+    <lastmod>2021-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/digital-humanities/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/nwc/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/misc/</loc>
+    <lastmod>2021-01-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication-type/0/</loc>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
+    <loc>/publication/africanews-2021/</loc>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
+    <loc>/publication/neumann-digital-2021/</loc>
+    <lastmod>2024-06-13T16:16:02+02:00</lastmod>
+  </url><url>
+    <loc>/author/madhu-periyasamy/</loc>
+    <lastmod>2024-06-13T16:16:04+02:00</lastmod>
+  </url><url>
+    <loc>/author/allison-tsao/</loc>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
     <loc>/publication/kazmi-how-2020/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
     <loc>/author/maryam-kazmi/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
     <loc>/author/xuegi-wen/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/linidita-camaj/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/hellmueller-mediating-2020/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
     <loc>/talk/drcheadabovewater/</loc>
     <lastmod>2020-05-24T11:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
-    <lastmod>2020-05-24T11:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/publication/bagheri-data-2020/</loc>
-    <lastmod>2021-04-28T14:14:28-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/giulia-toti/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/author/haoran-zhao/</loc>
-    <lastmod>2021-04-28T14:14:28-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/author/li-huang/</loc>
-    <lastmod>2021-04-28T14:14:28-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/author/manyang-sun/</loc>
-    <lastmod>2021-04-28T14:14:28-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/author/maryam-bagheri/</loc>
-    <lastmod>2021-04-28T14:14:28-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/author/srinath-madasu/</loc>
-    <lastmod>2021-04-28T14:14:28-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/talk/dsisyrios/</loc>
     <lastmod>2020-04-09T11:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/publication/saxena-comparison-2020/</loc>
-    <lastmod>2021-04-28T14:14:28-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
     <loc>/author/edgar-gabriel/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
     <loc>/author/john-rodgers/</loc>
-    <lastmod>2021-04-28T14:14:28-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
     <loc>/author/manvi-saxena/</loc>
-    <lastmod>2021-04-28T14:14:28-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
     <loc>/author/saba-khan/</loc>
-    <lastmod>2021-04-28T14:14:28-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
     <loc>/author/shweta-jha/</loc>
-    <lastmod>2021-04-28T14:14:28-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
     <loc>/teaching/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/publication/hellmueller-terrorism-2019/</loc>
-    <lastmod>2021-04-28T14:14:28-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:57+02:00</lastmod>
+  </url><url>
+    <loc>/author/valerie-hase/</loc>
+    <lastmod>2024-06-13T16:15:57+02:00</lastmod>
+  </url><url>
     <loc>/author/amit-amritkar/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
     <loc>/author/andrea-prosperetti/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
     <loc>/author/jerry-ebalunode/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
     <loc>/author/martin-huarte-espinosa/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
     <loc>/author/pablo-guillen-rondon/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
     <loc>/publication/amritkar-vistas-2017/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
+    <loc>/author/daniel-price/</loc>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
+    <loc>/publication/toti-effect-2016/</loc>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
+    <loc>/author/ricardo-vilalta/</loc>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/tag/demo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/project/hnet/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/project/nasem/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/project/scholarball/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/project/syrios/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/publication/ayyalasomayajula-air-2016/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:58+02:00</lastmod>
+  </url><url>
     <loc>/publication/toti-analysis-2016/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:58+02:00</lastmod>
+  </url><url>
     <loc>/author/barry-lefer/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:58+02:00</lastmod>
+  </url><url>
     <loc>/author/charles-macias/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/daniel-price/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/toti-effect-2016/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:58+02:00</lastmod>
+  </url><url>
     <loc>/author/haripriya-ayyalasomayajula/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/ricardo-vilalta/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:58+02:00</lastmod>
+  </url><url>
     <loc>/publication/uyanik-applying-2013/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/author/dipan-shah/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/author/hadi-montakhabi/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
     <loc>/author/ilyas-uyanik/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/author/ioannis-pavlidis/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
     <loc>/author/ioannis-t-pavlidis/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/author/ivan-garza/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
     <loc>/author/jerry-swanson/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
     <loc>/author/leslie-macbride/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
     <loc>/author/nikolaos-v-tsekos/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/author/panagiotis-tsiamyrtzis/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
     <loc>/publication/garza-face-2013/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
     <loc>/author/tom-krouskop/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:01+02:00</lastmod>
+  </url><url>
     <loc>/author/others/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/6/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/author/anitha-mandapati/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/author/avinash-wesley/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/author/brian-dunkin/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/author/dvijesh-shastri/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/publication/wesley-eustressed-2012/</loc>
-    <lastmod>2021-04-28T14:14:31-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:57+02:00</lastmod>
+  </url><url>
     <loc>/publication/pavlidis-fast-2012/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/author/ilya-timofeyev/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
     <loc>/author/pradeep-buddharaju/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/author/rohan-joseph/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/publication/zhou-spatiotemporal-2012/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
     <loc>/author/yan-zhou/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/publication/lindner-management-2007/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/author/michael-m-resch/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/publication/lindner-performance-2007/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:58+02:00</lastmod>
+  </url><url>
     <loc>/publication/lindner-gcm-2005/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:16:00+02:00</lastmod>
+  </url><url>
     <loc>/publication/currle-linde-management-2004/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
     <loc>/publication/almond-integrated-2004/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:58+02:00</lastmod>
+  </url><url>
     <loc>/author/fabian-boes/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
     <loc>/author/fabian-bos/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
     <loc>/publication/bos-high-throughput-2004/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
     <loc>/author/jim-almond/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:58+02:00</lastmod>
+  </url><url>
     <loc>/author/juergen-pleiss/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
     <loc>/author/jurgen-pleiss/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
     <loc>/author/natalia-currle-linde/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
     <loc>/author/rolf-d-schmid/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/4/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
     <loc>/publication/lindner-dfn-project-2003/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/philipp-wieder3-dietmar-erwin/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/roger-menday/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/thomas-beisel/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/toshiyuki-imamura/</loc>
-    <lastmod>2021-04-28T14:14:29-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:58+02:00</lastmod>
+  </url><url>
     <loc>/author/dietmar-erwin/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
+    <loc>/author/phillipp-wieder/</loc>
+    <lastmod>2024-06-13T16:15:58+02:00</lastmod>
+  </url><url>
+    <loc>/author/roger-menday/</loc>
+    <lastmod>2024-06-13T16:15:58+02:00</lastmod>
+  </url><url>
+    <loc>/author/thomas-beisel/</loc>
+    <lastmod>2024-06-13T16:15:58+02:00</lastmod>
+  </url><url>
+    <loc>/author/toshiyuki-imamura/</loc>
+    <lastmod>2024-06-13T16:15:58+02:00</lastmod>
+  </url><url>
+    <loc>/publication-type/4/</loc>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
+    <loc>/author/achim-streit/</loc>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
     <loc>/author/matthias-s-muller/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:58+02:00</lastmod>
+  </url><url>
     <loc>/author/rainer-keller/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:58+02:00</lastmod>
+  </url><url>
     <loc>/publication/gabriel-software-2003/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:58+02:00</lastmod>
+  </url><url>
+    <loc>/author/stefan-wesner/</loc>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
     <loc>/publication/erwin-unicore-2003/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
     <loc>/publication/lindner-distributed-2002/</loc>
-    <lastmod>2021-04-28T14:14:30-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-06-13T16:15:59+02:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/author/griffin-litwin/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/author/jamiu-adegbite/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>/author/jeremy-edwards/</loc>
+  </url><url>
     <loc>/author/michael-neugebauer/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/author/peggy-lindner/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>/author/philip-eriksson/</loc>
+  </url><url>
     <loc>/author/rahul-mogili/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/author/shane-whitmire/</loc>
+  </url><url>
+    <loc>/author/thang-nguyen/</loc>
+  </url><url>
+    <loc>/author/tianhao-shao/</loc>
   </url>
-  
 </urlset>
