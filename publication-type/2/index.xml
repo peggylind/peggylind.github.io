@@ -5,11 +5,7 @@
     <link>/publication-type/2/</link>
       <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-<<<<<<< HEAD
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 13 Jun 2024 14:16:03 +0000</lastBuildDate>
-=======
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
->>>>>>> 7401b328821560a71b328f210251f9b5ddb093cf
     <image>
       <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
@@ -17,7 +13,6 @@
     </image>
     
     <item>
-<<<<<<< HEAD
       <title>The Democratic Value of Strategic Game Reporting and Uncivil Talk: A Computational Analysis of Facebook Conversations During U.S. Primary Debates</title>
       <link>/publication/camaj-2024/</link>
       <pubDate>Thu, 13 Jun 2024 14:16:03 +0000</pubDate>
@@ -61,17 +56,11 @@
       <title>Higher research productivity = more pay? Gender pay-for-productivity inequity across disciplines</title>
       <link>/publication/samaniego-higher-2023/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
-=======
-      <title>Higher Research Productivity = More pay? Gender Pay-for-Productivity Inequity Across Disciplines</title>
-      <link>/publication/samaniego-higher-2023/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
->>>>>>> 7401b328821560a71b328f210251f9b5ddb093cf
       <guid>/publication/samaniego-higher-2023/</guid>
       <description></description>
     </item>
     
     <item>
-<<<<<<< HEAD
       <title>Sharing Stories from 1977: Creating a Feminist Digital Humanities Project</title>
       <link>/publication/wu-sharing-2022/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
@@ -81,20 +70,9 @@
     
     <item>
       <title>Terrorist Organizations in the News: A Computational Approach to Measure Media Attention Toward Terrorism</title>
-=======
-      <title>Terrorist organizations in the news: A computational and interdisciplinary approach to media attention towards terrorism</title>
->>>>>>> 7401b328821560a71b328f210251f9b5ddb093cf
       <link>/publication/hellmueller-terrorist-2021/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       <guid>/publication/hellmueller-terrorist-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Generating Word Embeddings from an Extreme Learning Machine for Sentiment Analysis and Sequence Labeling Tasks</title>
-      <link>/publication/lauren-generating-2018/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/lauren-generating-2018/</guid>
       <description></description>
     </item>
     

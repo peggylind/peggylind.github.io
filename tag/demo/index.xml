@@ -5,12 +5,20 @@
     <link>/tag/demo/</link>
       <atom:link href="/tag/demo/index.xml" rel="self" type="application/rss+xml" />
     <description>Demo</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 30 Jun 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_3.png</url>
       <title>Demo</title>
       <link>/tag/demo/</link>
     </image>
+    
+    <item>
+      <title>AIceberg - Explainable AI</title>
+      <link>/project/aiceberg/</link>
+      <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>/project/aiceberg/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>HNET Datamaps</title>

@@ -5,11 +5,7 @@
     <link>/author/christiane-spitzmueller/</link>
       <atom:link href="/author/christiane-spitzmueller/index.xml" rel="self" type="application/rss+xml" />
     <description>Christiane Spitzmueller</description>
-<<<<<<< HEAD
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
-=======
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
->>>>>>> 7401b328821560a71b328f210251f9b5ddb093cf
     <image>
       <url>/images/icon_hu13691edf976a549b4d76df963cf390b1_25387_512x512_fill_lanczos_center_3.png</url>
       <title>Christiane Spitzmueller</title>
@@ -17,7 +13,6 @@
     </image>
     
     <item>
-<<<<<<< HEAD
       <title>Underrepresented Minority Faculty Face Double Standard in Promotion and Tenure Decisions</title>
       <link>/publication/waage-2024/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
@@ -37,11 +32,6 @@
       <title>Higher research productivity = more pay? Gender pay-for-productivity inequity across disciplines</title>
       <link>/publication/samaniego-higher-2023/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
-=======
-      <title>Higher Research Productivity = More pay? Gender Pay-for-Productivity Inequity Across Disciplines</title>
-      <link>/publication/samaniego-higher-2023/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
->>>>>>> 7401b328821560a71b328f210251f9b5ddb093cf
       <guid>/publication/samaniego-higher-2023/</guid>
       <description></description>
     </item>
