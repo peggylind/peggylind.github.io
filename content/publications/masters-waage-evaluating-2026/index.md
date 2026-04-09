@@ -34,7 +34,9 @@ publication_types:
 publication: '*Nature Communications*'
 publication_short: ''
 
-doi: 10.1038/s41467-026-69937-5
+hugoblox:
+  ids:
+    doi: 10.1038/s41467-026-69937-5
 
 abstract: Black and Hispanic faculty – underrepresented minorities (URMs) within academia
   – face career barriers that come to a crux in promotion and tenure decisions. Leveraging

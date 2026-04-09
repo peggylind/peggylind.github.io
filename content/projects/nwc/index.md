@@ -6,9 +6,9 @@ tags:
 date: "2021-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://www.uh.edu/class/mcgovern/national-women-conference/index
+link: https://sharingstories1977.uh.edu/
 
 image:
-  caption: Drawing created by Abigail Chetlain
+  caption: Dove Logo created for NWC 1977
   focal_point: Smart
 ---

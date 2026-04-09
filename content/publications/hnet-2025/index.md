@@ -33,7 +33,9 @@ publication_types:
 publication: '*Proceedings of the H-Net Teaching Conference*'
 publication_short: ''
 
-doi: 10.33823/phtc.v3i1.325
+hugoblox:
+  ids:
+    doi: 10.33823/phtc.v3i1.325
 
 abstract: ''
 

@@ -29,7 +29,9 @@ publication_types:
 publication: '*Behavior Genetics*'
 publication_short: ''
 
-doi: 10.1007/s10519-024-10177-y
+hugoblox:
+  ids:
+    doi: 10.1007/s10519-024-10177-y
 
 abstract: Brain-imaging-genetic analysis is an emerging field of research that aims
   at aggregating data from neuroimaging modalities, which characterize brain structure

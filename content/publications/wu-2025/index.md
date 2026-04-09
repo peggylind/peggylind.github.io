@@ -30,7 +30,9 @@ publication_types:
 publication: '*The American Historical Review*'
 publication_short: ''
 
-doi: 10.1093/ahr/rhaf589
+hugoblox:
+  ids:
+    doi: 10.1093/ahr/rhaf589
 
 abstract: The Sharing Stories from 1977 project offers teachers an innovative way
   to introduce tools of digital humanities scholarship into the classroom.  The collective

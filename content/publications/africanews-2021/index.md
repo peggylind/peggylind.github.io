@@ -29,7 +29,9 @@ publication_types:
 publication: '*Texas Data Repository*'
 publication_short: ''
 
-doi: 10.18738/T8/UKJZ3E
+hugoblox:
+  ids:
+    doi: 10.18738/T8/UKJZ3E
 
 abstract: ''
 

@@ -18,8 +18,8 @@ summary: "Workshop on digital project management and interdisciplinary collabora
 links:
   - name: "Project Website"
     url: "https://syrios.uh.edu/"
-
-url_video: "https://www.youtube.com/watch?v=3DN3vpZA7g4&feature=youtu.be"
+  - type: video
+    url: "https://www.youtube.com/watch?v=3DN3vpZA7g4&feature=youtu.be"
 
 image:
   caption: "Image credit: **Peggy Lindner**"

@@ -28,7 +28,9 @@ publication_types:
 publication: '*Media and Communication*'
 publication_short: ''
 
-doi: 10.17645/mac.v11i3.6857
+hugoblox:
+  ids:
+    doi: 10.17645/mac.v11i3.6857
 
 abstract: 'textlessspantextgreaterTo date, the study of news deserts, geographic spaces
   lacking local news and information, has largely focused on countries in the Global

@@ -30,7 +30,9 @@ publication_types:
 publication: '*Digital Journalism*'
 publication_short: ''
 
-doi: 10.1080/21670811.2024.2402371
+hugoblox:
+  ids:
+    doi: 10.1080/21670811.2024.2402371
 
 abstract: ''
 

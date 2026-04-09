@@ -36,7 +36,9 @@ publication_types:
 publication: '*Nature Human Behaviour*'
 publication_short: ''
 
-doi: 10.1038/s41562-024-01977-7
+hugoblox:
+  ids:
+    doi: 10.1038/s41562-024-01977-7
 
 abstract: ''
 

@@ -29,7 +29,9 @@ publication_types:
 publication: '*Mass Communication and Society*'
 publication_short: ''
 
-doi: 10.1080/15205436.2021.1936068
+hugoblox:
+  ids:
+    doi: 10.1080/15205436.2021.1936068
 
 abstract: ''
 

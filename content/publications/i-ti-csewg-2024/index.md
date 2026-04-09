@@ -38,7 +38,9 @@ publication: '*Proceedings of the 2024 on Innovation and Technology in Computer 
   Education V. 2*'
 publication_short: ''
 
-doi: 10.1145/3649405.3659531
+hugoblox:
+  ids:
+    doi: 10.1145/3649405.3659531
 
 abstract: One of the less explored approaches to foster equity, diversity, and inclusion
   (EDI) in Computer Science (CS) is through changes to the curriculum. Despite sporadic

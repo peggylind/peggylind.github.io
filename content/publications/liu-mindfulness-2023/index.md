@@ -32,7 +32,9 @@ publication_types:
 publication: '*Journal of Organizational Behavior*'
 publication_short: ''
 
-doi: 10.1002/job.2705
+hugoblox:
+  ids:
+    doi: 10.1002/job.2705
 
 abstract: Abstract Mindfulness has recently gained popularity in applied settings
   to enhance workplace safety, especially in safety‐critical occupations such as healthcare

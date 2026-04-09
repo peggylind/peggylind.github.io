@@ -31,7 +31,9 @@ publication_types:
 publication: '*Journal of Business and Psychology*'
 publication_short: ''
 
-doi: 10.1007/s10869-024-09984-1
+hugoblox:
+  ids:
+    doi: 10.1007/s10869-024-09984-1
 
 abstract: On average, women faculty take on more childcare responsibilities, posing
   barriers to career success. Work-family policies represent one solution for advancing

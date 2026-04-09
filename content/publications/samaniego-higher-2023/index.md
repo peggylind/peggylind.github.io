@@ -33,7 +33,9 @@ publication_types:
 publication: '*Scientometrics*'
 publication_short: ''
 
-doi: 10.1007/s11192-022-04513-4
+hugoblox:
+  ids:
+    doi: 10.1007/s11192-022-04513-4
 
 abstract: Abstract Gender pay equity for academics continues to be elusive. Adding
   to scholarship around structural barriers to gender equity in academic settings,

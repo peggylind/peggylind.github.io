@@ -30,7 +30,9 @@ publication_types:
 publication: '*Journalism & Mass Communication Quarterly*'
 publication_short: ''
 
-doi: 10.1177/10776990231226403
+hugoblox:
+  ids:
+    doi: 10.1177/10776990231226403
 
 abstract: ' This study explores discourse features on Facebook pages of news organizations
   during the 2020 U.S. primary debates using a state-of-the-art machine-learning model.

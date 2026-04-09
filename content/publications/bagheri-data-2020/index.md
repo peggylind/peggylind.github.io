@@ -33,7 +33,9 @@ publication_types:
 publication: '*OTC-30854-MS*'
 publication_short: ''
 
-doi: 10.4043/30854-MS
+hugoblox:
+  ids:
+    doi: 10.4043/30854-MS
 
 abstract: Abstract A new machine learning (ML)/statistical-based methodology for conditioning
   and predicting production data for a well pad has been developed. Typically, data

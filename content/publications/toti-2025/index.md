@@ -38,7 +38,9 @@ publication: '*2024 Working Group Reports on Innovation and Technology in Comput
   Science Education*'
 publication_short: ''
 
-doi: 10.1145/3689187.3709611
+hugoblox:
+  ids:
+    doi: 10.1145/3689187.3709611
 
 abstract: ''
 
