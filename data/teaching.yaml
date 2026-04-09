@@ -1,0 +1,70 @@
+courses:
+  - title: "CIS 4397 Selected Topics: Advanced Topics in NoSQL Databases"
+    term: "Spring 2024"
+    year: 2024
+
+  - title: "CIS 4339: Enterprise Application Development"
+    term: "Fall 2023"
+    year: 2023
+
+  - title: "CIS 6397 Selected Topics: Introduction to Textmining"
+    term: "Fall 2023"
+    year: 2023
+
+  - title: "CIS 4339: Enterprise Application Development"
+    term: "Spring 2023"
+    year: 2023
+
+  - title: "CIS 6397 Selected Topics: Introduction to Textmining"
+    term: "Spring 2023"
+    year: 2023
+
+  - title: "CIS 4339: Enterprise Application Development"
+    term: "Fall 2022"
+    year: 2022
+
+  - title: "CIS 4339: Enterprise Application Development"
+    term: "Spring 2022"
+    year: 2022
+
+  - title: "CIS 4339: Enterprise Application Development"
+    term: "Fall 2021"
+    year: 2021
+
+  - title: "CIS 3368: Advanced Information System Development"
+    term: "Spring 2021"
+    year: 2021
+
+  - title: "CIS 6371: Data Analytics Solutions"
+    term: "Fall 2020"
+    year: 2020
+
+  - title: "CIS 3368: Advanced Information System Development"
+    term: "Fall 2020"
+    year: 2020
+
+  - title: "CIS 2348: Information System Application Development"
+    term: "Spring 2020"
+    year: 2020
+
+  - title: "CIS 6397 Selected Topics: Introduction to Textmining"
+    term: "Spring 2020"
+    year: 2020
+
+  - title: "CIS 2348: Information System Application Development"
+    term: "Fall 2019"
+    year: 2019
+
+  - title: "ENGI 6397 Selected Topics: Data Science Projects"
+    term: "Spring 2018"
+    year: 2018
+    description: "Co-taught with G. Toti"
+
+  - title: "R for Data Science"
+    term: "Summer and Fall 2018"
+    year: 2018
+    description: "Center for Advanced Computing and Data Science (CACDS) not-for-credit course"
+
+  - title: "HON 4397 Selected Topics: Introduction to Digital Humanities"
+    term: "Spring 2018"
+    year: 2018

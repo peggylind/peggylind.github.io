@@ -1,0 +1,50 @@
+{{ $students := site.Data.students }}
+{{ $filter := .Get "affiliation" | default "all" }}
+
+{{ $currentMatches := where $students.current "affiliation" $filter }}
+{{ $previousMatches := where $students.previous "affiliation" $filter }}
+
+{{ if eq $filter "all" }}
+  {{ $currentMatches = $students.current }}
+  {{ $previousMatches = $students.previous }}
+{{ end }}
+
+<div class="student-list-section">
+  {{ if gt (len $currentMatches) 0 }}
+    <h2>Current Students</h2>
+    <ul class="student-list">
+      {{ range $currentMatches }}
+        <li class="student-item">
+          <div class="student-name">{{ .name }}</div>
+          <div class="student-meta">{{ .role }}{{ with .affiliation }} | {{ . }}{{ end }}</div>
+          {{ with .description }}<div class="student-description">{{ . }}</div>{{ end }}
+          {{ with .projects }}
+            <div class="student-projects">
+              Projects:
+              {{ range $index, $p := . }}{{ if $index }}, {{ end }}<a href="{{ $p.url }}">{{ $p.name }}</a>{{ end }}
+            </div>
+          {{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+
+  {{ if gt (len $previousMatches) 0 }}
+    <h2>Previous Students</h2>
+    <ul class="student-list">
+      {{ range $previousMatches }}
+        <li class="student-item">
+          <div class="student-name">{{ .name }}</div>
+          <div class="student-meta">{{ .role }}{{ with .affiliation }} | {{ . }}{{ end }}</div>
+          {{ with .description }}<div class="student-description">{{ . }}</div>{{ end }}
+          {{ with .projects }}
+            <div class="student-projects">
+              Projects:
+              {{ range $index, $p := . }}{{ if $index }}, {{ end }}<a href="{{ $p.url }}">{{ $p.name }}</a>{{ end }}
+            </div>
+          {{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+</div>

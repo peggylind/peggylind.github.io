@@ -1,0 +1,98 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Dr. Peggy Lindner
+  given: Peggy
+  family: Lindner
+  alternate: ''  # Example: 王伟
+  pronunciation: ''  # Example: Wáng Wěi
+  pronouns: she/her
+postnominals:
+  - PhD
+  
+status:
+role: Associate Professor, Engineering Management
+bio: |
+  I am an interdisciplinary researcher and data scientist working at the intersection of large language models, natural language processing, explainable AI, and computational social science. I serve as Associate Professor and Associate Chair for Graduate Studies in Engineering Management and Systems Engineering at Missouri University of Science and Technology.
+
+affiliations:
+  - name: Missouri University of Science and Technology
+    url: https://emse.mst.edu/
+
+links:
+  - icon: at-symbol
+    url: mailto:plindner@mst.edu
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/peggylind
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/lindnerpeggy/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=odwfssgAAAAJ&hl=en
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-0447-5690
+
+interests:
+  - Explaianable AI
+  - Large Language Models
+  - Computational Social Science
+  - Information Retrieval
+ 
+
+education:
+  - degree: PhD in Mechanical Engineering
+    institution: University of Stuttgart, Germany
+    year: 2007
+  - degree: MEng in Geotechnology/ Mining
+    institution: Freiberg University of Mining and Technology, Germany
+    year: 2000
+  - degree: BSc in Geotechnology/ Mining
+    institution: Freiberg University of Mining and Technology, Germany
+    year: 1996
+
+experience:
+  - role: Associate Professor
+    org: Missouri University of Science & Technology
+    start: 2025-09-01
+    button:
+      text: View research portfolio
+      url: /
+      icon: hero/arrow-down-tray
+  - role: Assistant Professor
+    org: University of Houston
+    start: 2019-09-01
+    end: 2025-08-31
+    summary: |
+      Department of Information Science Technology |
+      Affiliations: The Honors College, Center for Public History
+  - role: Associate Director for Educational Programs
+    org: HPE Data Science Institute, University of Houston
+    start: 2016-01-01
+    end: 2019-08-31
+    summary: |
+      Development of Data science related academic programs across colleges |
+      Lead for Summer workshop series “What is Data Science
+  - role: Research  Assistant Professor
+    org: University of Houston, Department of Mechanical Engineering & Honors College"
+    start: 2013-11-01
+    end: 2019-08-31
+    summary:
+      Object centered studies in digital humanities (Collaborator Dr. Dan Price) |
+      Real-Time data analysis workflows for air quality and health data (Collaborator Dr. Barry Lefer) |
+      Assistance with assessment of effectiveness of research initiatives at the Honors College | Digital Humanities Liaison for the Center for Advanced Computing and Data Science (CACDS)
+  - role: Postdoctoral Researcher & Research  Assistant Professor
+    org: University of Houston, Department of Computer Science
+    start: 2009-11-01
+    end: 2012-12-31
+    summary:
+      Lead design and development of “StressBook” software – an analysis tool for large physiological & psychological datasets; funded through various grants from NSF and DoD (under Dr. Ioannis Pavlidis)
+
+languages:
+  - name: English
+    level: 5
+    label: Fluent
+  - name: German
+    level: 4
+    label: Native
+

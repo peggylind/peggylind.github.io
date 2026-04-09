@@ -1,0 +1,150 @@
+.teaching-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.teaching-card {
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(128, 128, 128, 0.25);
+  border-radius: 12px;
+  padding: 1.5rem 1.75rem;
+  box-shadow: none;
+  backdrop-filter: blur(2px);
+}
+
+.teaching-card h3 {
+  margin: 0 0 0.5rem 0;
+  color: inherit;
+  font-size: 1.15rem;
+  line-height: 1.35;
+}
+
+.teaching-card p {
+  margin: 0;
+  opacity: 0.8;
+  font-size: 0.95rem;
+}
+
+.project-page-title {
+  margin-bottom: -1.25rem;
+}
+
+.project-page-title .section-heading,
+.project-page-title h1,
+.project-page-title h2 {
+  margin-bottom: 0.5rem;
+}
+
+.project-filter-bar {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.35rem;
+  border-radius: 999px;
+  background: rgba(222, 180, 165, 0.24);
+  border: 1px solid rgba(145, 112, 102, 0.18);
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+  width: fit-content;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.project-filter-button {
+  display: inline-block;
+  flex: 0 0 auto;
+  white-space: nowrap;
+  padding: 0.55rem 0.95rem;
+  border-radius: 999px;
+  text-decoration: none;
+  color: inherit;
+  background: transparent;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.project-filter-button:hover {
+  background: rgba(255, 255, 255, 0.28);
+  text-decoration: none;
+}
+
+.project-filter-button.active {
+  background: rgba(255, 255, 255, 0.62);
+  font-weight: 600;
+}
+
+.student-list-section h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.student-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 2rem 0;
+}
+
+.student-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.student-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
+}
+
+.student-meta {
+  opacity: 0.8;
+  margin-bottom: 0.35rem;
+}
+
+.student-description {
+  margin-bottom: 0.35rem;
+}
+
+.student-projects a {
+  text-decoration: none;
+}
+
+.student-filter-bar {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.35rem;
+  border-radius: 999px;
+  background: rgba(222, 180, 165, 0.24);
+  border: 1px solid rgba(145, 112, 102, 0.18);
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
+  width: fit-content;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.student-filter-button {
+  display: inline-block;
+  flex: 0 0 auto;
+  white-space: nowrap;
+  padding: 0.55rem 0.95rem;
+  border-radius: 999px;
+  text-decoration: none;
+  color: inherit;
+  background: transparent;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.student-filter-button:hover {
+  background: rgba(255, 255, 255, 0.28);
+  text-decoration: none;
+}
+
+.student-filter-button.active {
+  background: rgba(255, 255, 255, 0.62);
+  font-weight: 600;
+}
+

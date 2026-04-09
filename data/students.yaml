@@ -1,0 +1,141 @@
+current:
+  - name: "Avery Raulston"
+    role: "Research Assistant"
+    affiliation: "Missouri S&T"
+    status: "PhD Student"
+    description: "Graduate student at the Missouri University of Science & Technology."
+    projects:
+      - name: "The Syrios Project"
+        url: "/projects/human-behavior"
+
+  - name: "Thang Nguyen"
+    role: "Full-stack web developer"
+    affiliation: "University of Houston"
+    status: "Undergraduate Student"
+    description: "Undergraduate student at the University of Houston."
+    projects:
+      - name: "The Syrios Project"
+        url: "/projects/syrios/"
+      - name: "National Women's Conference"
+        url: "/projects/nwc/"
+
+previous:
+  - name: "Jeremy Edwards"
+    role: "Research Assistant"
+    affiliation: "University of Houston"
+    status: "Graduate Student"
+    description: "Recent graduate from the Engineering Data Science MS program at the University of Houston. Thesis: “Explainability in Large Language Models.”"
+    projects:
+      - name: "AIceberg - Explainable AI"
+        url: "/projects/aiceberg/"
+
+  - name: "Vengal Pachava"
+    role: "Research Assistant"
+    affiliation: "University of Houston"
+    status: "Graduate Student"
+    description: "Recent graduate from the Engineering Data Science MS program at the University of Houston."
+    projects:
+      - name: "AIceberg - Explainable AI"
+        url: "/projects/aiceberg/"
+
+  - name: "Onyemaechi Onwudiachi"
+    role: "Full-stack web developer"
+    affiliation: "University of Houston"
+    status: "Undergraduate Student"
+    description: "Undergraduate student in CIS in the Cullen College of Engineering at the University of Houston."
+    projects:
+      - name: "DataPlatform"
+        url: "#"
+
+  - name: "Philip Eriksson"
+    role: "Full-stack web developer"
+    affiliation: "University of Houston"
+    status: "Undergraduate Student"
+    description: "Recent graduate with a BS in CIS from the College of Technology at the University of Houston."
+    projects:
+      - name: "DataPlatform"
+        url: "#"
+
+  - name: "Tianhao Shao"
+    role: "Full-stack web developer"
+    affiliation: "University of Houston"
+    status: "Graduate Student"
+    description: "Recent graduate with an MS in MIS from the Bauer Business College at the University of Houston."
+    projects:
+      - name: "The Syrios Project"
+        url: "/projects/syrios/"
+      - name: "National Women's Conference"
+        url: "/projects/nwc/"
+
+  - name: "Sravan Koka"
+    role: "Research Assistant"
+    affiliation: "University of Houston"
+    status: "Graduate Student"
+    description: "Recent graduate from the Engineering Data Science MS program at the University of Houston."
+    projects:
+      - name: "AIceberg - Explainable AI"
+        url: "/projects/aiceberg-explainable-ai/"
+  - name: "Griffin Litwin"
+    role: "Research Assistant"
+    affiliation: "University of Houston"
+    status: "Alumni"
+    description: "NSM post-baccalaureate student (BA in Politics) at the University of Houston."
+    projects:
+      - name: "Scholar Database"
+        url: "/projects/scholarball/"
+
+  - name: "Jamiu Adegbite"
+    role: "Graduate Assistant"
+    affiliation: "University of Houston"
+    status: "Alumni"
+    description: "Graduate student in the Master of Science in Statistics and Data Science program at the University of Houston."
+    projects:
+      - name: "Data Mining & Modeling"
+        url: "#"
+
+  - name: "Megan Stickler"
+    role: "Graduate Assistant"
+    affiliation: "University of Houston"
+    status: "Alumni"
+    description: "Graduated with a PhD from the Mathematics Department at the University of Houston."
+    projects:
+      - name: "Data Mining & Natural Language Processing"
+        url: "#"
+
+  - name: "Michael Neugebauer"
+    role: "Full-stack web developer"
+    affiliation: "University of Houston"
+    status: "Alumni"
+    description: "Recent graduate with a BS from the Computer Science Department at the University of Houston."
+    projects:
+      - name: "National Women's Conference"
+        url: "/projects/nnwc/"
+
+  - name: "Rahul Mogili"
+    role: "Graduate Assistant"
+    affiliation: "University of Houston"
+    status: "Alumni"
+    description: "Graduated from the Computer Science Department at the University of Houston."
+    projects:
+      - name: "The Syrios Project"
+        url: "/projects/syrios/"
+
+  - name: "Rohan Sai Mendu"
+    role: "Full-stack developer"
+    affiliation: "University of Houston"
+    status: "Alumni"
+    description: "Graduated with an MS in Electrical and Computer Engineering from the Cullen College of Engineering at the University of Houston."
+    projects:
+      - name: "HNET Datamaps"
+        url: "/projects/hnet/"
+
+  - name: "Shane Whitmire"
+    role: "Full-stack developer"
+    affiliation: "University of Houston"
+    status: "Alumni"
+    description: "Graduated from the Computer Science Department at the University of Houston."
+    projects:
+      - name: "The Syrios Project"
+        url: "/projects/the-syrios-project/"
+      - name: "HNET Datamaps"
+        url: "/projects/hnet/"

@@ -1,0 +1,10 @@
+{{ $courses := sort site.Data.teaching.courses "year" "desc" }}
+
+<div class="teaching-cards">
+  {{ range $courses }}
+    <div class="teaching-card">
+      <h3>{{ .title }}</h3>
+      <p>{{ .term }} &middot; {{ .year }}</p>
+    </div>
+  {{ end }}
+</div>
